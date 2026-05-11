@@ -18,6 +18,10 @@ object IItems :Load {
         description =
           "A neuroconductive tissue biomaterial, generally extracted from biomass. It can be used to enhance the reaction speed and attack accuracy of mechanical units"
       }
+      tr_TR {
+        localizedName = "Omurilik Uçları"
+        description = "Genellikle biyokütleden elde edilen nöroiletken doku biyomateryali. Mekanik birimlerin tepki hızını ve saldırı doğruluğunu artırmak için kullanılabilir"
+      }
     }
   }
   val 无名肉块 = IceItem("item_namelessCut", "bf3e47") {
@@ -31,6 +35,11 @@ object IItems :Load {
         localizedName = "Nameless Flesh"
         description = "An organic biomaterial with pulsating blood vessels covering its surface"
         details = "We thought the Arctic was merely cold, but we never imagined that the cold itself could be so hungry..."
+      }
+      tr_TR {
+        localizedName = "İsimsiz Et"
+        description = "Yüzeyi zonklayan damarlarla kaplı organik biyomateryal"
+        details = "Kuzey'in sadece soğuk olduğunu düşündük, ama asla hayal edemezdik ki soğuk kendisi bu kadar aç olabilsin..."
       }
     }
     nutrientConcentration = 0.5f
@@ -47,6 +56,10 @@ object IItems :Load {
         description =
           "A pulverized bone biomaterial covered with cracks and reinforced joints. Can be used as cheap structural filler or further refined into high-hardness composite materials"
       }
+      tr_TR {
+        localizedName = "Ezilmiş Kemikler"
+        description = "Çatlaklar ve güçlendirilmiş eklem noktalarıyla kaplı öğütülmüş kemik biyomateryali. Ucuz yapısal dolgu malzemesi olarak kullanılabilir veya yüksek sertlikte kompozit malzemelere dönüştürülebilir"
+      }
     }
   }
   val 肌腱 = IceItem("item_muscleTendon", "bf3e47") {
@@ -62,6 +75,11 @@ object IItems :Load {
         description = "A high-strength fiber bundle biomaterial with remarkable elasticity and toughness after modification"
         details = "Chewy candy?"
       }
+      tr_TR {
+        localizedName = "Kas Tendonu"
+        description = "Modifikasyon sonrası dikkat çekici esneklik ve dayanıklılığa sahip yüksek mukavemetli lif demeti biyomateryali"
+        details = "Çiğneme şekeri mi?"
+      }
     }
   }
   val 骨钢 = IceItem("item_fleshSteel", "bf3e47") {
@@ -75,6 +93,10 @@ object IItems :Load {
         localizedName = "Flesh Steel"
         description =
           "A composite biomaterial made of flesh and bone, hard with a faint sheen, used for constructing self-healing structures"
+      }
+      tr_TR {
+        localizedName = "Et Çeliği"
+        description = "Et ve kemikten yapılmış kompozit biyomateryal, hafif bir parlaklıkla sert, kendi kendini onaran yapılar inşa etmek için kullanılır"
       }
     }
   }
@@ -92,6 +114,10 @@ object IItems :Load {
         description =
           "Golden-gleaming sand particles mixed with trace amber crystals, revealing translucent amber halos under light. Various minerals can be extracted through proper processing"
       }
+      tr_TR {
+        localizedName = "Amber Altın Kumu"
+        description = "Işık altında yarı saydam kehribar haleleri ortaya çıkaran iz kehribar kristalleriyle karışmış altın parıltılı kum taneleri. Uygun işlemeyle çeşitli mineraller çıkarılabilir"
+      }
     }
   }
   val 黄玉髓 = IceItem("item_canaryStone", "f5c782") {
@@ -104,6 +130,10 @@ object IItems :Load {
       en {
         localizedName = "Canary Chalcedony"
         description = "A pale yellow translucent jade with a warm, smooth texture that can be processed to extract other minerals"
+      }
+      tr_TR {
+        localizedName = "Kanarya Kalsedon"
+        description = "Diğer mineralleri çıkarmak için işlenebilen sıcak, pürüzsüz dokuya sahip soluk sarı yarı saydam yeşim taşı"
       }
     }
   }
@@ -118,6 +148,10 @@ object IItems :Load {
         localizedName = "Red Ice"
         description =
           "A red radioactive crystal containing unstable energy structures that may cause violent release when stimulated externally"
+      }
+      tr_TR {
+        localizedName = "Kırmızı Buz"
+        description = "Dışarıdan uyarıldığında şiddetli salınım yapabilen kararsız enerji yapıları içeren kırmızı radyoaktif kristal"
       }
     }
   }
@@ -134,6 +168,10 @@ object IItems :Load {
         description =
           "A translucent crystal-like spore with stable internal energy structures, usable for manufacturing optical devices or energy-conducting materials"
       }
+      tr_TR {
+        localizedName = "Kristal Spor"
+        description = "Kararlı iç enerji yapılarına sahip yarı saydam kristal benzeri spor, optik cihazlar veya enerji ileten malzemeler üretmek için kullanılabilir"
+      }
     }
   }
   val 灼热孢团 = IceItem("item_pyroSpore", "eac73e") {
@@ -149,6 +187,10 @@ object IItems :Load {
         description =
           "A cluster of high-temperature spores containing combustible substances, usable as fuel or raw material for explosives"
       }
+      tr_TR {
+        localizedName = "Ateşli Spor Topu"
+        description = "Yanıcı maddeler içeren yüksek sıcaklık sporları kümesi, yakıt veya patlayıcı hammaddesi olarak kullanılabilir"
+      }
     }
   }
   val 寂温疮体 = IceItem("item_lonelyHeatSoreSpore", "b3f1ff") {
@@ -163,6 +205,10 @@ object IItems :Load {
         description =
           "A peculiar low-temperature spore covered with ice crystals that can stably absorb and conduct heat energy, usable for cooling system construction or low-temperature material preparation"
       }
+      tr_TR {
+        localizedName = "Kriyo Yara Sporu"
+        description = "Isı enerjisini kararlı bir şekilde emebilen ve iletebilen buz kristalleriyle kaplı ilginç düşük sıcaklıkta spor, soğutma sistemi yapımı veya düşük sıcaklıkta malzeme hazırlanması için kullanılabilir"
+      }
     }
   }
   val 腐败孢团 = IceItem("item_rottenSpore", "a09bbd") {
@@ -176,6 +222,10 @@ object IItems :Load {
       en {
         localizedName = "Rotten Spore Cluster"
         description = "A cluster of rotting spores that continuously emits foul odors, usable for manufacturing fertilizer or fuel"
+      }
+      tr_TR {
+        localizedName = "Çürük Spor Topu"
+        description = "Sürekli olarak kötü kokular yayan çürüyen spor kümesi, gübre veya yakıt üretimi için kullanılabilir"
       }
     }
   }
@@ -194,6 +244,10 @@ object IItems :Load {
         description =
           "A unicellular reproductive spore harvested from crimson trees, with extremely unstable biological structures that may differentiate into [red]other plants[] under suitable conditions"
       }
+      tr_TR {
+        localizedName = "Kan Kesesi Sporu"
+        description = "Kızıl ağaçlardan hasat edilen tek hücreli üreme sporu, uygun koşullarda [red]diğer bitkilere[] dönüşebilecek son derece kararsız biyolojik yapılara sahip"
+      }
     }
   }
   val 石英 = OreItem("item_quartz", "ffffff", 1) {
@@ -206,6 +260,10 @@ object IItems :Load {
         localizedName = "Quartz"
         description =
           "A high-hardness translucent crystal with pure composition and glassy luster. Possesses excellent resistance to extreme acidic environments, commonly used for equipment construction in corrosive areas"
+      }
+      tr_TR {
+        localizedName = "Kuvars"
+        description = "Saf bileşime ve camsı parlaklığa sahip yüksek sertlikte yarı saydam kristal. Aşırı asidik ortamlara karşı mükemmel direnç gösterir, aşındırıcı alanlarda ekipman yapımında yaygın olarak kullanılır"
       }
     }
   }
@@ -220,6 +278,10 @@ object IItems :Load {
         localizedName = "Raw Coal"
         description =
           "Unrefined raw coal with high impurity content and limited combustion efficiency. Can be used directly as basic fuel or further processed to improve purity and calorific value"
+      }
+      tr_TR {
+        localizedName = "Ham Kömür"
+        description = "Yüksek safsızlık içeriği ve sınırlı yanma verimliliğine sahip rafine edilmemiş ham kömür. Temel yakıt olarak doğrudan kullanılabilir veya saflık ve kalorifik değeri artırmak için daha fazla işlenebilir"
       }
     }
   }
@@ -239,6 +301,10 @@ object IItems :Load {
         description =
           "A processed carbon material with higher carbon content and calorific value compared to raw coal, with fewer impurities and more complete combustion. Widely used in smelting industry as supplementary heat source and carbon material"
       }
+      tr_TR {
+        localizedName = "Kok"
+        description = "Ham kömüre kıyasla daha yüksek karbon içeriği ve kalorifik değerine sahip işlenmiş karbon malzeme, daha az safsızlık ve daha tam yanma. Ergitme endüstrisinde tamamlayıcı ısı kaynağı ve karbon malzemesi olarak yaygın kullanılır"
+      }
     }
   }
   val 燃素水晶 = IceItem("item_phlogistonCrystal", "b38f8d") {
@@ -252,6 +318,10 @@ object IItems :Load {
         localizedName = "Phlogiston Crystal"
         description =
           "A high-energy crystal that releases large amounts of thermal energy when burned, an important raw material for high-efficiency fuel"
+      }
+      tr_TR {
+        localizedName = "Florojiston Kristali"
+        description = "Yandığında büyük miktarda termal enerji açığa çıkaran yüksek enerjili kristal, yüksek verimli yakıt için önemli bir hammaddedir"
       }
     }
   }
@@ -267,6 +337,10 @@ object IItems :Load {
         description =
           "An important chromium ore with metallic to submetallic luster. Contains high proportion of chromium and is one of the main raw materials for producing stainless steel and heat-resistant alloys"
       }
+      tr_TR {
+        localizedName = "Kromit"
+        description = "Metalik ile yarı metalik parlaklığa sahip önemli bir krom cevheri. Yüksek oranda krom içerir ve paslanmaz çelik ile ısıya dayanıklı alaşımlar üretiminin ana hammaddelerinden biridir"
+      }
     }
   }
   val 赤铁矿 = OreItem("item_hematite", "c6a699", 2) {
@@ -279,6 +353,10 @@ object IItems :Load {
         localizedName = "Hematite"
         description =
           "An important iron ore with reddish-brown color and high iron content, one of the main raw materials for synthesizing carbon steel"
+      }
+      tr_TR {
+        localizedName = " Hematit"
+        description = "Kırmızımsı kahverengi renge ve yüksek demir içeriğine sahip önemli bir demir cevheri, karbon çeliği sentezlemenin ana hammaddelerinden biri"
       }
     }
   }
@@ -294,6 +372,10 @@ object IItems :Load {
         description =
           "An important lead ore with cubic crystal structure, often accompanied by precious metals like silver, with weak radioactivity. One of the main raw materials for lead extraction"
       }
+      tr_TR {
+        localizedName = "Galen"
+        description = "Kübik kristal yapısına sahip önemli bir kurşun cevheri, genellikle gümüş gibi değerli metallerle birlikte, zayıf radyoaktivite. Kurşun çıkarımının ana hammaddelerinden biri"
+      }
     }
   }
   val 黄铜矿 = OreItem("item_copperPyrites", "eac73e", 2) {
@@ -306,6 +388,10 @@ object IItems :Load {
         localizedName = "Chalcopyrite"
         description =
           "An important copper ore with brass-yellow metallic luster, often accompanied by precious metals like gold and silver. One of the main raw materials for copper extraction"
+      }
+      tr_TR {
+        localizedName = "Kalkopirit"
+        description = "Pirinç sarısı metalik parlaklığa sahip önemli bir bakır cevheri, genellikle altın ve gümüş gibi değerli metallerle birlikte. Bakır çıkarımının ana hammaddelerinden biri"
       }
     }
   }
@@ -320,6 +406,10 @@ object IItems :Load {
         description =
           "An important zinc ore, pure sphalerite is nearly colorless but usually appears light yellow or green due to iron content, darkening with increasing iron. One of the main raw materials for zinc extraction"
       }
+      tr_TR {
+        localizedName = "Sfalerit"
+        description = "Önemli bir çinko cevheri, saf sfalerit neredeyse renksizdir ancak genellikle demir içeriği nedeniyle açık sarı veya yeşil görünür, demir arttıkça koyulaşır. Çinko çıkarımının ana hammaddelerinden biri"
+      }
     }
   }
   val 金矿 = OreItem("item_goldOre", "f8df87", 3) {
@@ -333,6 +423,10 @@ object IItems :Load {
         description =
           "A precious gold ore that, despite its relatively low overall content, remains one of the core sources for extracting precious metals"
       }
+      tr_TR {
+        localizedName = "Altın Cevheri"
+        description = " görece düşük toplam içeriğine rağmen değerli metallerin çıkarılması için temel kaynaklardan biri olmaya devam eden değerli bir altın cevheri"
+      }
     }
   }
   val 锆英石 = OreItem("item_azorite", "8c3e2d", 4) {
@@ -345,6 +439,10 @@ object IItems :Load {
         localizedName = "Zircon"
         description =
           "A hard silicate ore with short prismatic crystals, widely used in ceramic industry and refractory material preparation. One of the main raw materials for zirconium extraction"
+      }
+      tr_TR {
+        localizedName = "Zirkon"
+        description = "Kısa prizmatik kristallere sahip sert silikat cevheri, seramik endüstrisinde ve ateşe dayanıklı malzeme hazırlanmasında yaygın olarak kullanılır. Zirkonyum çıkarımının ana hammaddelerinden biri"
       }
     }
   }
@@ -361,6 +459,11 @@ object IItems :Load {
           "An important cobalt ore, often with pinkish tones and cubic or octahedral crystal forms. One of the main raw materials for cobalt extraction"
         details = "This stuff is harder to chew than diamonds\n— Mining Captain R-42's log"
       }
+      tr_TR {
+        localizedName = "Linneit"
+        description = "Genellikle pembemsi tonlara ve kübik veya oktahedral kristal formlara sahip önemli bir kobalt cevheri. Kobalt çıkarımının ana hammaddelerinden biri"
+        details = "Bu şey elmaslardan daha sert çiğneniyor\n— Maden Kaptanı R-42'nin günlüğü"
+      }
     }
   }
   val 铱锇矿 = OreItem("item_iridiumosm", "656565", 4) {
@@ -373,6 +476,10 @@ object IItems :Load {
         localizedName = "Iridium Osmium Ore"
         description =
           "A rare iridium-osmium ore with dull metallic luster, containing both iridium and osmium, one of the main raw materials for extracting these two metals"
+      }
+      tr_TR {
+        localizedName = "İridyum Osmiyum Cevheri"
+        description = "Hem iridyum hem de osmiyum içeren donuk metalik parlaklığa sahip nadir bir iridyum-osmiyum cevheri, bu iki metalin çıkarılmasının ana hammaddelerinden biri"
       }
     }
   }
@@ -387,6 +494,10 @@ object IItems :Load {
         description =
           "A rare earth ore, commonly appearing yellowish-brown to reddish-brown. Contains a high proportion of cerium and is one of the main raw materials for cerium extraction"
       }
+      tr_TR {
+        localizedName = "Serit"
+        description = "Genellikle sarımsı kahverenginden kırmızımsı kahverengiye görünen nadir toprak cevheri. Yüksek oranda seryum içerir ve seryum çıkarımının ana hammaddelerinden biri"
+      }
     }
   }
   val 铝土矿 = IceItem("item_alumina", "c0c0c0") {
@@ -398,6 +509,10 @@ object IItems :Load {
       en {
         localizedName = "Bauxite"
         description = "An ore rich in aluminum oxide, serving as the primary raw material for aluminum extraction"
+      }
+      tr_TR {
+        localizedName = "Boksit"
+        description = "Alüminyum oksit açısından zengin bir cevher, alüminyum çıkarımı için birincil hammadde"
       }
     }
   }
@@ -418,6 +533,12 @@ object IItems :Load {
         details =
           "Although it's a radioactive mineral, the uranium density in the ore isn't sufficient to produce lethal radiation... What? You're asking why the little box in my hand is clicking?"
       }
+      tr_TR {
+        localizedName = "Ham Uranyum Cevheri"
+        description = "Santrifüj işlemeyle iki yaygın uranyum izotopuna ayrılabilen açık yeşil asfalt parlaklığına sahip bir uranyum cevheri"
+        details =
+          "Radyoaktif bir mineral olsa da, cevherdeki uranyum yoğunluğu ölümcül radyasyon üretmek için yeterli değil... Ne? Bana neden elimdeki küçük kutunun tıkırdadığını soruyorsunuz?"
+      }
     }
   }
   val 黑晶石 = OreItem("item_black_crystone", "808080", 3) {
@@ -437,6 +558,12 @@ object IItems :Load {
         details =
           "This name really sounds like a magical item from a game... Do geologists really name minerals so casually? Malachite? Obsidian?"
       }
+      tr_TR {
+        localizedName = "Siyah Kristal Taşı"
+        description = "Camsıdan yarı metalik parlaklığa sahip koyu cevher. İçten çeşitli metal bileşikleri açısından zengin, rafine edildikten sonra birden fazla yararlı metalik elemente ayrılabilir"
+        details =
+          "Bu isim gerçekten bir oyundaki büyülü bir eşya gibi ses veriyor... Jeologlar gerçekten minerallere bu kadar rahat isim veriyorlar mı? Maşikobugu? Obsidyen?"
+      }
     }
   }
 
@@ -451,6 +578,10 @@ object IItems :Load {
         description =
           "A steel metal material with low carbon content, possessing excellent plasticity and toughness, commonly used as a basic material in construction and mechanical manufacturing"
       }
+      tr_TR {
+        localizedName = "Düşük Karbonlu Çelik"
+        description = "Düşük karbon içeriğine sahip çelik metal malzeme, mükemmel plastisite ve tokluk sergiler, inşaat ve mekanik üretimde temel malzeme olarak yaygın kullanılır"
+      }
     }
   }
   val 高碳钢 = IceItem("item_highCarbonSteel", "bedfee") {
@@ -464,6 +595,10 @@ object IItems :Load {
         description =
           "A steel metal material with high carbon content, harder than low carbon steel, suitable for manufacturing high-strength structures and components"
       }
+      tr_TR {
+        localizedName = "Yüksek Karbonlu Çelik"
+        description = "Yüksek karbon içeriğine sahip çelik metal malzeme, düşük karbonlu çelikten daha sert, yüksek mukavemetli yapılar ve bileşenler üretimi için uygun"
+      }
     }
   }
   val 铜锭 = IceItem("item_copperIngot", "d99d73") {
@@ -476,6 +611,10 @@ object IItems :Load {
         localizedName = "Copper Ingot"
         description =
           "A metal material renowned for its excellent electrical and thermal conductivity, with soft texture and good ductility. An important material for electrical equipment and heat exchange systems"
+      }
+      tr_TR {
+        localizedName = "Bakır Külçesi"
+        description = "Mükemmel elektriksel ve termal iletkenliğiyle ünlü metal malzeme, yumuşak doku ve iyi süneklik. Elektrikli ekipmanlar ve ısı değişim sistemleri için önemli bir malzeme"
       }
     }
   }
@@ -492,6 +631,11 @@ object IItems :Load {
           "A high-density metal material with excellent radiation shielding capabilities, usable both for protective facilities and as material for heavy weapons"
         details = "From blocking radiation to piercing armor, this weight never disappoints"
       }
+      tr_TR {
+        localizedName = "Kurşun Külçesi"
+        description = "Mükemmel radyasyon kalkanlama yeteneklerine sahip yüksek yoğunluklu metal malzeme, hem koruyucu tesisler hem de ağır silah malzemesi olarak kullanılabilir"
+        details = "Radyasyonu engellemekten zırhı delmeye kadar, bu ağırlık asla hayal kırıklığına uğratmaz"
+      }
     }
   }
   val 锌锭 = IceItem("item_zincIngot", "578c80") {
@@ -507,6 +651,11 @@ object IItems :Load {
           "A metal material combining sacrificial anode protection and superplasticity when heated. Can be used as armor plating to significantly extend vehicle lifespan, or made into high-energy zinc-air batteries to power unit shields"
         details = "Rust prevention? Try wrapping EMP bombs in zinc foil :)"
       }
+      tr_TR {
+        localizedName = "Çinko Külçesi"
+        description = "Kurban anot koruması ve ısıtıldığında süperplastisiteyi birleştiren metal malzeme. Araç ömrünü önemli ölçüde uzatmak için zırh kaplaması olarak kullanılabilir veya birim kalkanlarını güçlendirmek için yüksek enerjili çinko-hava pilleri yapılabilir"
+        details = "Paslanma önleme mi? EMP bombalarını çinko folyo ile sarmayı deneyin :)"
+      }
     }
   }
   val 黄铜锭 = IceItem("item_brassIngot", "eac73e") {
@@ -519,6 +668,10 @@ object IItems :Load {
         localizedName = "Brass Ingot"
         description =
           "A copper alloy with high strength and corrosion resistance, used for manufacturing various structural components and connectors"
+      }
+      tr_TR {
+        localizedName = "Pirinç Külçesi"
+        description = "Yüksek mukavemet ve korozyon direncine sahip bakır alaşımı, çeşitli yapısal bileşenler ve konektörler üretimi için kullanılır"
       }
     }
   }
@@ -533,6 +686,10 @@ object IItems :Load {
         description =
           "A lightweight, high-hardness metal material with excellent corrosion resistance, used for manufacturing high-strength structures and protective equipment"
       }
+      tr_TR {
+        localizedName = "Krom Külçesi"
+        description = "Mükemmel korozyon direncine sahip hafif, yüksek sertlikte metal malzeme, yüksek mukavemetli yapılar ve koruyucu ekipman üretimi için kullanılır"
+      }
     }
   }
   val 金锭 = IceItem("item_goldIngot", "f8df87") {
@@ -545,6 +702,10 @@ object IItems :Load {
         localizedName = "Gold Ingot"
         description =
           "A precious metal material with excellent electrical conductivity. Widely used for manufacturing electronic components and energy conduction parts"
+      }
+      tr_TR {
+        localizedName = "Altın Külçesi"
+        description = "Mükemmel elektrik iletkenliğine sahip değerli metal malzeme. Elektronik bileşenler ve enerji iletim parçaları üretiminde yaygın olarak kullanılır"
       }
     }
   }
@@ -562,6 +723,11 @@ object IItems :Load {
           "A common metal material resistant to low temperatures, lightweight in texture, with significantly improved strength after processing. Widely used as structural material in aerospace applications"
         details = "On most low-mass planets, aluminum abundance typically ranks highest among metallic elements"
       }
+      tr_TR {
+        localizedName = "Alüminyum Külçesi"
+        description = "Düşük sıcaklıklara dayanıklı yaygın metal malzeme, dokusu hafif, işleme sonrası mukavemeti önemli ölçüde artar. Havacılık uygulamalarında yapısal malzeme olarak yaygın kullanılır"
+        details = "Çoğu düşük kütleli gezegende, alüminyum bolluk tipik olarak metalik elementler arasında en yüksek sıradadır"
+      }
     }
   }
   val 钴锭 = IceItem("item_cobaltIngot", "b3f1ff") {
@@ -575,6 +741,10 @@ object IItems :Load {
         description =
           "A metal material with excellent high-temperature resistance and corrosion resistance, widely used in the manufacture of structural components and precision measuring instruments"
       }
+      tr_TR {
+        localizedName = "Kobalt Külçesi"
+        description = "Mükemmel yüksek sıcaklık direnci ve korozyon direncine sahip metal malzeme, yapısal bileşenler ve hassas ölçüm cihazları üretiminde yaygın olarak kullanılır"
+      }
     }
   }
   val 铪锭 = IceItem("item_hafniIngot", "f7e5f3") {
@@ -587,6 +757,10 @@ object IItems :Load {
         localizedName = "Hafnium Ingot"
         description =
           "A rare high-melting-point metal material that excels in energy conduction and high-temperature environments, serving as a key material for advanced energy equipment"
+      }
+      tr_TR {
+        localizedName = "Hafniyum Külçesi"
+        description = "Enerji iletimi ve yüksek sıcaklık ortamlarında mükemmel performans gösteren nadir yüksek erime noktalı metal malzeme, gelişmiş enerji ekipmanları için anahtar malzeme"
       }
     }
   }
@@ -604,6 +778,10 @@ object IItems :Load {
         localizedName = "Cerium Ingot"
         description = "A widely used metal material employed in grinding and polishing agents, specialty glass, and thruster components"
       }
+      tr_TR {
+        localizedName = "Seryum Külçesi"
+        description = "Taşlama ve parlatma ajanlarında, özel camlarda ve itici bileşenlerinde kullanılan yaygın olarak kullanılan metal malzeme"
+      }
     }
   }
   val 钍锭 = IceItem("item_thoriumIngot", "f9a3c7") {
@@ -616,6 +794,10 @@ object IItems :Load {
       en {
         localizedName = "Thorium Ingot"
         description = "A radioactive metal material with high energy density, commonly used in nuclear reactors and nuclear weapons"
+      }
+      tr_TR {
+        localizedName = "Toryum Külçesi"
+        description = "Yüksek enerji yoğunluğuna sahip radyoaktif metal malzeme, yaygın olarak nükleer reaktörlerde ve nükleer silahlarda kullanılır"
       }
     }
   }
@@ -631,6 +813,10 @@ object IItems :Load {
         description =
           "An extremely strong rare metal material whose compounds possess nuclear semiconductor properties (similar to silicon's semiconductor properties in electronics industry), serving as the core material for precision nuclear circuit manufacturing"
       }
+      tr_TR {
+        localizedName = "İridyum Külçesi"
+        description = "Bileşikleri nükleer yarı iletken özelliklere sahip son derece güçlü nadir metal malzeme (elektronik endüstrisinde silikonun yarı iletken özelliklerine benzer), hassas nükleer devre üretiminin temel malzemesi"
+      }
     }
   }
   val 钴钢 = IceItem("item_cobaltSteel", "c5d1e0") {
@@ -643,6 +829,10 @@ object IItems :Load {
         localizedName = "Cobalt Steel"
         description =
           "A cobalt alloy with excellent high-temperature resistance and corrosion resistance, hard in texture and structurally stable. Commonly used in manufacturing high-strength structural components and protective equipment"
+      }
+      tr_TR {
+        localizedName = "Kobalt Çeliği"
+        description = "Mükemmel yüksek sıcaklık direnci ve korozyon direncine sahip kobalt alaşımı, dokusu sert ve yapısal olarak kararlı. Yüksek mukavemetli yapısal bileşenler ve koruyucu ekipman üretiminde yaygın olarak kullanılır"
       }
     }
   }
@@ -661,6 +851,11 @@ object IItems :Load {
         description =
           "A crystal compound formed by sulfur and metals that remains relatively stable under normal conditions, but undergoes rapid chemical reactions when heated and decomposed, capable of melting most materials. The controllable phlogiston that releases substantial thermal energy is clearly important, making sulfides a crucial material utilized across various industrial and weapon applications"
       }
+      tr_TR {
+        localizedName = "Kükürt Bileşiği"
+        description =
+          "Kükürt ve metallerin oluşturduğu kristal bileşik, normal koşullar altında nispeten kararlı kalır, ancak ısıtıldığında ve ayrıştırıldığında hızlı kimyasal reaksiyonlara uğrar, çoğu malzemeyi eritebilir. Önemli miktarda termal enerji açığa çıkaran kontrollü florojiston açıkça önemlidir, bu da sülfürleri çeşitli endüstriyel ve silah uygulamalarında kullanılan kritik bir malzeme yapar"
+      }
     }
   }
   val 爆炸化合物 = IceItem("item_explosiveCompound", "ff795e") {
@@ -676,6 +871,10 @@ object IItems :Load {
         description =
           "An extremely unstable compound, a high-energy material developed to meet the demands of impact weapons. Its explosive power is exceptionally strong, and long-distance transportation and storage should be avoided"
       }
+      tr_TR {
+        localizedName = "Patlayıcı Bileşik"
+        description = "Aşırı kararsız bileşik, darbe silahları taleplerini karşılamak için geliştirilmiş yüksek enerjili malzeme. Patlayıcı gücü olağanüstü derecede güçlüdür ve uzun mesafe taşımacılığı ve depolamadan kaçınılmalıdır"
+      }
     }
   }
   val 低温化合物 = IceItem("item_lowTemperatureCompound", "C0ECFF") {
@@ -689,6 +888,10 @@ object IItems :Load {
         localizedName = "Low-Temperature Compound"
         description =
           "A compound condensed in extremely low-temperature environments, featuring excellent thermal conductivity, commonly used for manufacturing high-efficiency cooling systems"
+      }
+      tr_TR {
+        localizedName = "Düşük Sıcaklık Bileşiği"
+        description = "Aşırı düşük sıcaklık ortamlarında yoğunlaştırılmış bileşik, mükemmel termal iletkenliğe sahip, yüksek verimli soğutma sistemleri üretimi için yaygın olarak kullanılır"
       }
     }
   }
@@ -705,6 +908,10 @@ object IItems :Load {
         description =
           "A metal clot extremely sensitive to impact and temperature, highly prone to spontaneous combustion when exposed to air, requiring strict sealed storage"
       }
+      tr_TR {
+        localizedName = "Seryum Pıhtısı"
+        description = "Darbe ve sıcaklığa son derece duyarlı metal pıhtısı, havaya maruz kaldığında kendiliğinden yanma eğilimi yüksek, sıkı kapalı depolama gerektirir"
+      }
     }
   }
   val 铱板 = IceItem("item_iridiumPlate", "656565") {
@@ -717,6 +924,10 @@ object IItems :Load {
         localizedName = "Iridium Plate"
         description =
           "Iridium alloy that has completed the die-casting process, possessing extremely strong impact resistance. An excellent anisotropic medium suitable for manufacturing precision nuclear circuits and high-performance protective structures"
+      }
+      tr_TR {
+        localizedName = "İridyum Plaka"
+        description = "Döküm işlemini tamamlamış iridyum alaşımı, son derece güçlü darbe direncine sahip. Hassas nükleer devreler ve yüksek performanslı koruyucu yapılar üretimi için mükemmel anizotropik ortam"
       }
     }
   }
@@ -732,6 +943,10 @@ object IItems :Load {
         description =
           "Glass made from high-purity fused quartz, featuring excellent high-temperature resistance and extremely low thermal expansion coefficient. Effectively resists erosion from most chemical reactions, making it an ideal reaction vessel material"
       }
+      tr_TR {
+        localizedName = "Kuvars Camı"
+        description = "Yüksek saflıkta erimiş kuvarsdan yapılmış cam, mükemmel yüksek sıcaklık direnci ve son derece düşük termal genleşme katsayısına sahip. Çoğu kimyasal reaksiyondan erozyona karşı etkili bir şekilde direnç gösterir, ideal reaksiyon kabı malzemesi yapar"
+      }
     }
   }
   val 复合陶瓷 = IceItem("item_compositeCeramic", "ebeef5") {
@@ -744,6 +959,10 @@ object IItems :Load {
         localizedName = "Composite Ceramic"
         description =
           "A composite material renowned for its exceptional impact resistance and thermal stability. Can serve as the core substrate material for energy shield generators or be fabricated into heat-resistant protective tiles required by high-speed units"
+      }
+      tr_TR {
+        localizedName = "Kompozit Seramik"
+        description = "Olağanüstü darbe direnci ve termal stabilite ile ünlü kompozit malzeme. Enerji kalkanı jeneratörleri için temel alttaş malzemesi olarak hizmet edebilir veya yüksek hızlı birimler için gereken ısıya dayanıklı koruyucu karolar üretilebilir"
       }
     }
   }
@@ -758,6 +977,10 @@ object IItems :Load {
         description =
           "A composite armor material capable of rapidly and evenly dispersing electromagnetic particle radiation throughout the armor, significantly reducing localized damage caused by high-intensity kinetic impacts"
       }
+      tr_TR {
+        localizedName = "Porselen Çelik"
+        description = "Elektromanyetik parçacık radyasyonunu zırh boyunca hızla ve eşit şekilde dağıtabilen kompozit zırh malzemesi, yüksek yoğunluklu kinetik darbelerin neden olduğu lokal hasarı önemli ölçüde azaltır"
+      }
     }
   }
   val 石墨烯 = IceItem("item_graphene", "52578a") {
@@ -770,6 +993,10 @@ object IItems :Load {
         localizedName = "Graphene"
         description =
           "An ultra-thin single-layer carbon atom material with exceptional electrical conductivity and mechanical strength, serving as a core material for advanced electronic devices"
+      }
+      tr_TR {
+        localizedName = "Grafen"
+        description = "Olağanüstü elektrik iletkenliği ve mekanik mukavemete sahip ultra ince tek katmanlı karbon atomu malzemesi, gelişmiş elektronik cihazlar için temel malzeme"
       }
     }
   }
@@ -784,6 +1011,10 @@ object IItems :Load {
         description =
           "A high-purity silicon crystal that serves as the foundational material for manufacturing advanced electronic devices and processors"
       }
+      tr_TR {
+        localizedName = "Tek Kristalli Silisyum"
+        description = "Gelişmiş elektronik cihazlar ve işlemciler üretimi için temel malzeme görevi gören yüksek saflıkta silisyum kristali"
+      }
     }
   }
   val 导能回路 = IceItem("item_conductingCircuit", "867F8C") {
@@ -796,6 +1027,10 @@ object IItems :Load {
         localizedName = "Conducting Circuit"
         description =
           "An energy conduction component made by etching high-purity monocrystalline silicon circuits onto thorium substrates with reduced radioactivity, possessing exceptional energy conductivity and stability"
+      }
+      tr_TR {
+        localizedName = "İletken Devre"
+        description = "Azaltılmış radyoaktiviteye sahip toryum alttaşları üzerine yüksek saflıkta tek kristalli silisyum devreleri kazınarak yapılan enerji iletim bileşeni, olağanüstü enerji iletkenliği ve kararlılığa sahip"
       }
     }
     charge = 0.8f
@@ -813,6 +1048,10 @@ object IItems :Load {
         description =
           "A biological material composed of chlorella cells integrated after impurity separation, usable for extracting more valuable chlorella essence"
       }
+      tr_TR {
+        localizedName = "Klorella Bloğu"
+        description = "Safsızlık ayırma sonrası entegre edilmiş klorella hücrelerinden oluşan biyolojik malzeme, daha değerli klorella özü çıkarmak için kullanılabilir"
+      }
     }
   }
   val 绿藻素 = IceItem("item_chlorella", "#7BD261") {
@@ -827,6 +1066,10 @@ object IItems :Load {
         localizedName = "Chlorella Essence"
         description =
           "A bioactive compound extracted from chlorella cells, serving as the core substance for chlorella's photosynthesis. Used to apply photosynthetic mechanisms in industrial production"
+      }
+      tr_TR {
+        localizedName = "Klorella Özü"
+        description = "Klorella hücrelerinden çıkarılan biyoaktif bileşik, klorellanın fotosentezi için temel madde. Fotosentetik mekanizmaları endüstriyel üretime uygulamak için kullanılır"
       }
     }
   }
@@ -845,6 +1088,12 @@ object IItems :Load {
         details =
           "Generally speaking, rivers carry salt substances attached to riverbeds and flow into oceans or lakes. Prolonged accumulation continuously increases salt concentration in water bodies, eventually forming high-salinity oceans and saline lakes. This pattern applies to most planets with active hydrospheres"
       }
+      tr_TR {
+        localizedName = "Alkali Taşı"
+        description = "Primer olarak alkali kireçtaşından oluşan cevher, içten çeşitli klor içeren metal tuzları açısından zengin. Alkali çözelti ve klor gazını ayırmak için elektrolitik işlemede kullanılır"
+        details =
+          "Genel olarak konuşursak, nehirler yataklarına yapışan tuz maddelerini taşır ve okyanuslara veya göllere akar. Uzun süreli birikim, su kütlelerindeki tuz konsantrasyonunu sürekli artırır, sonunda yüksek tuzluluklu okyanuslar ve tuzlu göller oluşturur. Bu model, aktif hidroferlere sahip çoğu gezegen için geçerlidir"
+      }
     }
   }
   val 絮凝剂 = IceItem("item_flocculant", "ffffff") {
@@ -861,6 +1110,13 @@ object IItems :Load {
         details =
           "Keep dry\nStore in a cool environment, avoid direct sunlight\nShelf life: six months\nIn case of accidental ingestion, seek medical attention immediately and provide this instruction sheet to the physician"
       }
+      tr_TR {
+        localizedName = "Pıhtılaştırıcı"
+        description =
+          "Suya eklendiğinde büyük miktarda gözenekli pıhtılaşmış jel oluşturan kimyasal malzeme, katı maddeleri adsorbe etmek veya ayırmak için kullanılır. Önemli bir kimyasal malzeme"
+        details =
+          "Kuru tutun\nSerin bir ortamda saklayın, doğrudan güneş ışığından kaçının\nRaf ömrü: altı ay\nKaza sonucu yutulursa derhal tıbbi yardım isteyin ve bu talimat sayfasını hekime verin"
+      }
     }
   }
 
@@ -876,6 +1132,10 @@ object IItems :Load {
         localizedName = "Nuclear Waste"
         description =
           "Radioactive material remaining after nuclear reactions, still possessing strong radiation. Although it has limited nuclear energy utilization value, it can serve as an unconventional source for iridium extraction"
+      }
+      tr_TR {
+        localizedName = "Nükleer Atık"
+        description = "Nükleer reaksiyonlardan sonra kalan radyoaktif malzeme, hala güçlü radyasyona sahip. Sınırlı nükleer enerji kullanım değerine sahip olsa da, iridyum çıkarımı için alışılmadık bir kaynak olarak hizmet edebilir"
       }
     }
   }
@@ -894,6 +1154,12 @@ object IItems :Load {
         details =
           "Under certain conditions, ore fragments spontaneously accumulate and form blocks. Most form ore layers, but many unformed fragments become entrapped in highly viscous colloids, creating complex asphalt-like ore concretions in deep strata"
       }
+      tr_TR {
+        localizedName = "Kaya Zifti"
+        description = "Yer kabuğunun derinliklerinden sondajlanan asfalt benzeri cevher, çeşitli ağır mineral bileşenleri içeren viskoz dokuya sahip"
+        details =
+          "Belirli koşullar altında, cevher parçacıkları kendiliğinden birikir ve bloklar oluşturur. Çoğu cevher tabakası oluşturur, ancak birçok şekilsiz parçacık yüksek viskoziteli kolloidlerde hapsolur ve derin tabakalarda karmaşık asfalt benzeri cevher çimento oluşturur"
+      }
     }
   }
   val 铀原料 = IceItem("item_uranium_rawmaterial", "#B5D980") {
@@ -907,6 +1173,10 @@ object IItems :Load {
         localizedName = "Uranium Raw Material"
         description =
           "An intermediate product from chemical processing of uranium ore, which can be used to produce fuel-grade uranium-235 and high-purity uranium-238 through thermal centrifugation"
+      }
+      tr_TR {
+        localizedName = "Uranyum Hammaddesi"
+        description = "Uranyum cevherinin kimyasal işlenmesinden elde edilen ara ürün, termal santrifüjle yakıt sınıfı uranyum-235 ve yüksek saflıkta uranyum-238 üretmek için kullanılabilir"
       }
     }
   }
@@ -925,6 +1195,12 @@ object IItems :Load {
         details =
           "In sufficiently high-pressure nuclear fission reactions, nuclear decay and scattered neutrons always bring unexpected elements. These remain in nuclear waste, waiting to be transformed into more useful substances"
       }
+      tr_TR {
+        localizedName = "İridyum-Altın Karışımı"
+        description = "İridyum metal oksitleri içeren katı bileşik, daha fazla işlenip saflaştırılarak iridyum ergitme için ara malzeme elde edilebilir"
+        details =
+          "Yeterli yüksek basınçlı nükleer fisyon reaksiyonlarında, nükleer bozunma ve dağınık nötronlar her zaman beklenmedik elementler getirir. Bunlar nükleer atıkta kalır ve daha kullanışlı maddelere dönüştürülmeyi bekler"
+      }
     }
   }
   val 氯铱酸盐 = IceItem("item_iridium_chloride", "#CBE0E0") {
@@ -940,6 +1216,12 @@ object IItems :Load {
         details =
           "Iridium exists on almost all planets, but most of it has sunk into the planetary core. Only small amounts coexist with platinum group metals as mineral formations, making it extremely scarce"
       }
+      tr_TR {
+        localizedName = "İridyum Klorür"
+        description = "Kalsinasyon ve deklorinasyondan sonra saf iridyum veren yüksek saflıkta iridyum içeren bileşik"
+        details =
+          "İridyum hemen hemen tüm gezegenlerde var, ancak çoğu gezegen çekirdeğine batmış. Yalnızca küçük miktarlar platin grubu metallerle mineral oluşumları olarak birlikte var, bu da onu son derece kıt kılar"
+      }
     }
   }
 
@@ -954,6 +1236,10 @@ object IItems :Load {
         description =
           "An alloy with excellently balanced properties, possessing extremely high structural strength and resistance, widely applied across various fields"
       }
+      tr_TR {
+        localizedName = "Güçlendirme Alaşımı"
+        description = "Mükemmel dengelenmiş özelliklere sahip alaşım, son derece yüksek yapısal mukavemet ve dirence sahip, çeşitli alanlarda yaygın olarak uygulanır"
+      }
     }
   }
   val 电子元件 = IceItem("item_integratedCircuit", "53565c") {
@@ -965,6 +1251,10 @@ object IItems :Load {
       en {
         localizedName = "Electronic Component"
         description = "Precision electronic devices that serve as fundamental materials for manufacturing advanced equipment and processors"
+      }
+      tr_TR {
+        localizedName = "Elektronik Bileşen"
+        description = "Gelişmiş ekipman ve işlemciler üretimi için temel malzeme görevi gören hassas elektronik cihazlar"
       }
     }
   }
@@ -978,6 +1268,10 @@ object IItems :Load {
         localizedName = "Aerogel"
         description =
           "An ultra-lightweight silicon-based material filled with numerous microscopic honeycomb-like pores, featuring high strength, extremely low density, and excellent insulation properties, widely used across various fields"
+      }
+      tr_TR {
+        localizedName = "Aerogel"
+        description = "Çok sayıda mikroskobik petek benzeri gözeneklerle dolu ultra hafif silikon bazlı malzeme, yüksek mukavemet, son derece düşük yoğunluk ve mükemmel yalıtım özelliklerine sahip, çeşitli alanlarda yaygın olarak kullanılır"
       }
     }
   }
@@ -998,6 +1292,12 @@ object IItems :Load {
         details =
           "On any planet, natural uranium-238 always constitutes the vast majority of uranium abundance. Fortunately, it can be transformed into more useful materials. If all of it were used to make penetrators and armor-piercing projectiles, the reserves could potentially last until the next geological epoch..."
       }
+      tr_TR {
+        localizedName = "Uranyum-238"
+        description = "Tükenmiş uranyum olarak yaygın olarak bilinen radyoaktif izotop, yüksek sertlik ve yoğun yapıya sahip. Nötron yansıtıcı plakalar ve kinetik enerji delici başlıkları olarak kullanılabilir veya nötronları emerek daha kullanışlı plütonyum-239'a bozunabilir"
+        details =
+          "Herhangi bir gezegende, doğal uranyum-238 her zaman uranyum bollukının büyük çoğunluğunu oluşturur. Neyse ki daha kullanışlı malzemelere dönüştürülebilir. Hepsinin delici ve zırh delici mermiler yapmak için kullanılması durumunda, rezervler bir sonraki jeolojik çağa kadar potansiyel olarak sürebilir..."
+      }
     }
   }
   val 铀235 = IceItem("item_uranium_235", "#B5D980") {
@@ -1011,6 +1311,10 @@ object IItems :Load {
       en {
         localizedName = "Uranium-235"
         description = "A primary fissile nuclear fuel and also a natural neutron radiation source"
+      }
+      tr_TR {
+        localizedName = "Uranyum-235"
+        description = "Birincil fissil nükleer yakıt ve aynı zamanda doğal nötron radyasyon kaynağı"
       }
     }
   }
@@ -1028,6 +1332,12 @@ object IItems :Load {
           "A highly radioactive isotope formed by uranium-238 absorbing neutrons and subsequently decaying, commonly used as fissile nuclear fuel alongside uranium-235"
         details =
           "Although uranium-238 can be converted to plutonium-239, you might need a substantial reactor array to achieve mass production of plutonium-239"
+      }
+      tr_TR {
+        localizedName = "Plütonyum-239"
+        description = "Uranyum-238'in nötronları emmesi ve ardından bozunmasıyla oluşan oldukça radyoaktif izotop, uranyum-235 ile birlikte yaygın olarak fissil nükleer yakıt olarak kullanılır"
+        details =
+          "Uranyum-238 plütonyum-239'a dönüştürülebilse de, plütonyum-239'un seri üretimini gerçekleştirmek için önemli bir reaktör dizisine ihtiyacınız olabilir"
       }
     }
   }
@@ -1049,6 +1359,12 @@ object IItems :Load {
         details =
           "The neutron optical structure of phase material focuses neutrons onto the central hydrogen storage cavity to maximize the neutron flux received at the center. Under neutron bombardment, a large number of hydrogen atoms are converted into isotopes that more readily undergo fusion reactions, subsequently participating in nuclear fusion"
       }
+      tr_TR {
+        localizedName = "Faz Sarmalı Hidrojen Hücresi"
+        description = "Faz malzemesiyle kapsüllenmiş hidrojen nötron hedef peleti, nükleer reaktörlerde nötronları alabilen ve nükleer yakıta dönüştürebilen"
+        details =
+          "Faz malzemesinin nötron optik yapısı, merkezte alınan nötron akısını maksimize etmek için nötronları merkezi hidrojen depolama boşluğuna odaklar. Nötron bombardımanı altında, çok sayıda hidrojen atomu füzyon reaksiyonlarına daha kolay giren izotoplara dönüştürülür, ardından nükleer füzyona katılır"
+      }
     }
   }
   val 相位封装氦单元 = IceItem("item_encapsulated_helium_cell", "#F9FFDE") {
@@ -1068,6 +1384,12 @@ object IItems :Load {
         details =
           "The neutron optical structure of phase material focuses neutrons onto the central helium storage cavity to maximize the neutron flux received at the center. Under neutron bombardment, a large number of helium atoms are converted into isotopes that more readily undergo fusion reactions, subsequently participating in nuclear fusion"
       }
+      tr_TR {
+        localizedName = "Faz Sarmalı helyum Hücresi"
+        description = "Faz malzemesiyle kapsüllenmiş helyum nötron hedef peleti, nükleer reaktörlerde nötronları alabilen ve nükleer yakıta dönüştürebilen"
+        details =
+          "Faz malzemesinin nötron optik yapısı, merkezde alınan nötron akısını maksimize etmek için nötronları merkezi helyum depolama boşluğuna odaklar. Nötron bombardımanı altında, çok sayıda helyum atomu füzyon reaksiyonlarına daha kolay giren izotoplara dönüştürülür, ardından nükleer füzyona katılır"
+      }
     }
   }
   val 氢聚变燃料 = IceItem("item_hydrogen_fusion_fuel", "#83D6A0") {
@@ -1085,6 +1407,10 @@ object IItems :Load {
         description =
           "A nuclear fuel composed of compressed hydrogen isotopes with atomic properties conducive to fusion, classified as light nuclear fusion fuel"
       }
+      tr_TR {
+        localizedName = "Hidrojen Füzyon Yakıtı"
+        description = "Füzyona uygun atomik özelliklere sahip sıkıştırılmış hidrojen izotoplarından oluşan nükleer yakıt, hafif nükleer füzyon yakıtı olarak sınıflandırılır"
+      }
 
     }
   }
@@ -1100,6 +1426,10 @@ object IItems :Load {
         localizedName = "Helium Fusion Fuel"
         description =
           "A nuclear fuel composed of compressed helium isotopes with atomic properties conducive to fusion, classified as light nuclear fusion fuel"
+      }
+      tr_TR {
+        localizedName = "Helyum Füzyon Yakıtı"
+        description = "Füzyona uygun atomik özelliklere sahip sıkıştırılmış helyum izotoplarından oluşan nükleer yakıt, hafif nükleer füzyon yakıtı olarak sınıflandırılır"
       }
     }
   }
@@ -1119,6 +1449,10 @@ object IItems :Load {
         description =
           "A highly enriched uranium nuclear fuel encapsulated at ultra-low temperatures, capable of stable storage under critical compression states exceeding normal temperature, serving as one of the primary fuels for reactors"
       }
+      tr_TR {
+        localizedName = "Sarmalı Uranyum-235"
+        description = "Ultra düşük sıcaklıklarda kapsüllenmiş yüksek zenginleştirilmiş uranyum nükleer yakıtı, normal sıcaklığı aşan kritik sıkıştırma durumları altında kararlı depolama kapasitesine sahip, reaktörler için birincil yakıtlardan biri"
+      }
     }
   }
   val 浓缩钚239核燃料 = IceItem("item_concentration_plutonium_239", "#B0B074") {
@@ -1136,6 +1470,10 @@ object IItems :Load {
         description =
           "A highly enriched plutonium nuclear fuel encapsulated at ultra-low temperatures, capable of stable storage under critical compression states exceeding normal temperature, serving as one of the primary fuels for reactors"
       }
+      tr_TR {
+        localizedName = "Sarmalı Plütonyum-239"
+        description = "Ultra düşük sıcaklıklarda kapsüllenmiş yüksek zenginleştirilmiş plütonyum nükleer yakıtı, normal sıcaklığı aşan kritik sıkıştırma durumları altında kararlı depolama kapasitesine sahip, reaktörler için birincil yakıtlardan biri"
+      }
     }
   }
 
@@ -1149,6 +1487,10 @@ object IItems :Load {
         localizedName = "Matrix Alloy"
         description =
           "A programmable alloy formed by the aggregation of numerous nanobots, with relatively low mechanical strength but capable of freely transforming its shape and even state of matter, possessing extremely high adaptability and flexibility"
+      }
+      tr_TR {
+        localizedName = "Matris Alaşımı"
+        description = "Çok sayıda nano-botun bir araya gelmesiyle oluşan programlanabilir alaşım, nispeten düşük mekanik mukavemete sahip ancak şeklini ve hatta madde durumunu serbestçe dönüştürebilen, son derece yüksek uyarlanabilirlik ve esneklik sergiler"
       }
     }
   }
@@ -1165,6 +1507,11 @@ object IItems :Load {
         description =
           "A biomaterial with the vast majority of its activity forcibly suppressed. Armor manufactured from this material possesses excellent characteristics including seamless integration, strong adhesion, acid and alkali resistance, radiation protection, corrosion resistance, and impact resistance, however..."
         details = "Are you sure you want to use this?"
+      }
+      tr_TR {
+        localizedName = "Biyolojik Çelik"
+        description = "Aktivitesinin büyük çoğunluğu zorla bastırılmış biyomateryal. Bu malzemeden üretilen zırh, kusursuz entegrasyon, güçlü yapışma, asit ve alkali direnci, radyasyon koruması, korozyon direnci ve darbe direnci dahil mükemmel özelliklere sahip, ancak..."
+        details = "Bunu kullanmak istediğinizden emin misiniz?"
       }
     }
     frames = 3
@@ -1188,6 +1535,10 @@ object IItems :Load {
         description =
           "An activation protocol loaded with specific keys, granting authorization to unlock control and manufacturing permissions for advanced ordnance"
       }
+      tr_TR {
+        localizedName = "Ciddi Protokol"
+        description = "Belirli anahtarlarla yüklenmiş bir aktivasyon protokolü, gelişmiş mühimmat için kontrol ve üretim izinlerinin kilidini açmaya yetki verir"
+      }
     }
   }
   val FEX水晶 = IceItem("item_crystal_FEX", "#D2393E") {
@@ -1203,6 +1554,10 @@ object IItems :Load {
         localizedName = "Energy-Conducting Crystal"
         description =
           "A high-purity low-energy-resistance crystal with significantly enhanced neutron conductivity and nuclear performance, an indispensable core material in the nuclear industry"
+      }
+      tr_TR {
+        localizedName = "Enerji İletken Kristal"
+        description = "Önemli ölçüde geliştirilmiş nötron iletkenliği ve nükleer performansa sahip yüksek saflıkta düşük enerji dirençli kristal, nükleer endüstride vazgeçilmez temel malzeme"
       }
 
     }
@@ -1221,6 +1576,12 @@ object IItems :Load {
           "A high-purity low-energy-resistance crystal excited by substantial energy, extremely unstable in nature, dangerous and difficult to store, yet indispensable where neutron energy release is required"
         details =
           "Strictly prohibited from contact with any dense medium when in excited state. In the 'Neutron Industry Operation Management Regulations', such entries are specially marked with prominent fonts. Behind every warning line lies irreparable accidents and costs"
+      }
+      tr_TR {
+        localizedName = "Aktif Enerji İletken Kristal"
+        description = "Önemli enerjiyle uyarılmış yüksek saflıkta düşük enerji dirençli kristal, doğası gereği son derece kararsız, tehlikeli ve depolanması zor, ancak nötron enerjisi salınımının gerekli olduğu yerde vazgeçilmez"
+        details =
+          "Uyarılmış durumdayken herhangi bir yoğun ortamla temas etmek kesinlikle yasaktır. 'Nötron Endüstrisi Operasyon Yönetimi Yönetmelikleri'nde bu tür girişler belirgin yazı tipleriyle özel olarak işaretlenmiştir. Her uyarı satırının arkasında onarılamaz kazalar ve maliyetler yatar"
       }
     }
     hardness = 3
@@ -1244,6 +1605,10 @@ object IItems :Load {
         description =
           "An ultra-high-density polymer composed of neutron degenerate matter, with hardness difficult to measure, and toughness and plasticity approaching zero. Besides serving as structural material in extreme environments, it is also an ideal field source for gravitational field technology"
       }
+      tr_TR {
+        localizedName = "Dönüşmüş Nötron Polimeri"
+        description = "Ölçülmesi zor sertliğe ve sıfıra yaklaşan tokluğa ve plastisiteye sahip nötron dönüşmüş maddeden oluşan ultra yüksek yoğunluklu polimer. Aşırı ortamlarda yapısal malzeme olarak hizmet etmenin yanı sıra, yerçekimi alanı teknolojisi için ideal alan kaynağıdır"
+      }
     }
   }
   val 暮光合金 = IceItem("item_duskIngot", "deedff") {
@@ -1256,6 +1621,10 @@ object IItems :Load {
         localizedName = "Dusk Alloy"
         description =
           "An alloy that exhibits a special luster during twilight hours, possessing excellent energy conduction characteristics, serving as a core material for advanced energy equipment"
+      }
+      tr_TR {
+        localizedName = "Alacakaranlık Alaşımı"
+        description = "Alacakaranlık saatlerinde özel bir parlaklık sergileyen, mükemmel enerji iletim özelliklerine sahip alaşım, gelişmiş enerji ekipmanları için temel malzeme"
       }
     }
   }
@@ -1274,6 +1643,13 @@ object IItems :Load {
           "High-energy particle energy encapsulated in containers, capable of affecting spacetime structure when phase energy is injected under specific structural arrangements. Early research caused phenomena such as temporal regression, spatial dislocation, and chaotic teleportation"
         details =
           "When ethereal particles are arranged in specific structures and injected with phase energy, the ethereal particles form a wave-state neutron centripetal force field powered by Eta-macro particle rays under the energy radiation of the Favre-Klein compact space"
+      }
+      tr_TR {
+        localizedName = "Esir Enerjisi"
+        description =
+          "Kaplar içinde kapsüllenmiş yüksek enerjili parçacık enerjisi, belirli yapısal düzenlemeler altında faz enerjisi enjekte edildiğinde uzay-zaman yapısını etkileyebilir. Erken araştırmalar zamansal gerileme, uzamsal yer değiştirme ve kaotik ışınlanma gibi fenomenlere neden oldu"
+        details =
+          "Esir parçacıkları belirli yapılar halinde düzenlendiğinde ve faz enerjisi enjekte edildiğinde, esir parçacıkları Favre-Klein kompakt uzayının enerji radyasyonu altında Eta-makro parçacık ışınlarıyla çalışan dalga durumu nötron merkezcil kuvvet alanı oluşturur"
       }
     }
     frames = 2
@@ -1295,6 +1671,10 @@ object IItems :Load {
         description =
           "Possessing unique energy conduction and storage characteristics, serving as a core material for advanced turret ammunition"
       }
+      tr_TR {
+        localizedName = "Uçurum Matrisi"
+        description = "Benzersiz enerji iletimi ve depolama özelliklerine sahip, gelişmiş taret mühimmatı için temel malzeme"
+      }
     }
   }
   val 反物质 = IceItem("item_anti_metter", "734CD2") {
@@ -1314,7 +1694,11 @@ object IItems :Load {
         details =
           "Typically, every antimatter storage unit has an independent energy module to maintain the confinement field. After the brilliant fireworks from the fuel depot accompanying the distant star fleet disappeared, power outages became the most dangerous thing when carrying antimatter"
       }
-
+      tr_TR {
+        localizedName = "Anti-Madde"
+        description = "Kütle çekim alanıyla sınırlandırılmış ve izole edilmiş anti-madde, normal madde ile temas ettiğinde tamamen yok olur ve kütleyi saf enerjiye dönüştürür. Aşırı derecede tehlikeli ve yüksek saldırı silahlarında yaygın olarak kullanılır"
+        details = "Genellikle her anti-madde depolama ünitesi, sınırlama alanını korumak için bağımsız bir enerji modülüne sahiptir. Uzak yıldız filoyla birlikte yakıt deposundan gelen parlak fişekler kaybolduktan sonra, elektrik kesintileri anti-madde taşınırken en tehlikeli şey haline gelir"
+      }
     }
   }
 }

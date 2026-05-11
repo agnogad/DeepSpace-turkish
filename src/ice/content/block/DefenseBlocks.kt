@@ -63,6 +63,10 @@ object DefenseBlocks : Load {
         this.localizedName = "碳钢墙"
         description = "保护己方建筑,挡下敌方炮弹"
       }
+      tr_TR {
+        this.localizedName = "Karbon Çelik Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller"
+      }
     }
   }
   val 大型碳钢墙 = Wall("carbonSteelWallLarge").apply {
@@ -75,6 +79,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "大型碳钢墙"
         description = "保护己方建筑,挡下敌方炮弹"
+      }
+      tr_TR {
+        this.localizedName = "Büyük Karbon Çelik Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller"
       }
     }
   }
@@ -90,6 +98,11 @@ object DefenseBlocks : Load {
         description = "保护己方建筑,挡下敌方炮弹,随时间缓慢自愈"
         details = "熔融金锭构筑的壁垒\n财富值+"
       }
+      tr_TR {
+        this.localizedName = "Akan Altın Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, zamanla yavaşça kendini onarır"
+        details = "Erimiş altın külçelerinden yapılmış bariyer\nServet değeri+"
+      }
     }
   }
   val 大型流金墙 = Wall("fluxGoldWallLarge").apply {
@@ -104,6 +117,11 @@ object DefenseBlocks : Load {
         description = "保护己方建筑,挡下敌方炮弹,随时间缓慢自愈"
         details = "熔融金锭构筑的壁垒\n财富值++"
       }
+      tr_TR {
+        this.localizedName = "Büyük Akan Altın Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, zamanla yavaşça kendini onarır"
+        details = "Erimiş altın külçelerinden yapılmış bariyer\nServet değeri++"
+      }
     }
   }
   val 铬墙 = AutoWall("chromeWall").apply {
@@ -111,6 +129,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "铬墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用"
+      }
+      tr_TR {
+        this.localizedName = "Krom Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, daha sağlam ve dayanıklı"
       }
     }
     health = 450
@@ -126,6 +148,10 @@ object DefenseBlocks : Load {
         this.localizedName = "大型铬墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用"
       }
+      tr_TR {
+        this.localizedName = "Büyük Krom Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, daha sağlam ve dayanıklı"
+      }
     }
   }
   val 钴钢墙 = Wall("cobaltSteelWall").apply {
@@ -137,6 +163,10 @@ object DefenseBlocks : Load {
         this.localizedName = "钴钢墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用"
       }
+      tr_TR {
+        this.localizedName = "Kobalt Çelik Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, daha sağlam ve dayanıklı"
+      }
     }
   }
   val 大型钴钢墙 = Wall("cobaltSteelWallLarge").apply {
@@ -147,6 +177,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "大型钴钢墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用"
+      }
+      tr_TR {
+        this.localizedName = "Büyük Kobalt Çelik Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, daha sağlam ve dayanıklı"
       }
     }
   }
@@ -160,6 +194,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "陶钢墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用.能吸收激光和电弧,会阻止电力节点自动连接,可以放置在岸边"
+      }
+      tr_TR {
+        this.localizedName = "Porselen Çelik Duvar"
+        description = "Mülklerini korur, daha sağlam ve dayanıklı. Lazerleri ve elektrik arklarını emebilir, güç düğümlerinin otomatik bağlanmasını engelleyebilir, kıyıya yerleştirilebilir"
       }
     }
     requirements(Category.defense, IItems.陶钢, 6)
@@ -176,6 +214,10 @@ object DefenseBlocks : Load {
         this.localizedName = "大型陶钢墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用.能吸收激光和电弧,会阻止电力节点自动连接,可以放置在岸边"
       }
+      tr_TR {
+        this.localizedName = "Büyük Porselen Çelik Duvar"
+        description = "Mülklerini korur, daha sağlam ve dayanıklı. Lazerleri ve elektrik arklarını emebilir, güç düğümlerinin otomatik bağlanmasını engelleyebilir, kıyıya yerleştirilebilir"
+      }
     }
     requirements(Category.defense, IItems.陶钢, 24)
   }
@@ -187,6 +229,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "铱墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用"
+      }
+      tr_TR {
+        this.localizedName = "İridyum Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, daha sağlam ve dayanıklı"
       }
     }
     requirements(Category.defense, IItems.铱板, 6)
@@ -201,6 +247,10 @@ object DefenseBlocks : Load {
         this.localizedName = "大型铱墙"
         description = "保护己方建筑,挡下敌方炮弹,更坚固耐用"
       }
+      tr_TR {
+        this.localizedName = "Büyük İridyum Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, daha sağlam ve dayanıklı"
+      }
     }
     requirements(Category.defense, IItems.铱板, 24)
   }
@@ -209,6 +259,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "强化合金墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用"
+      }
+      tr_TR {
+        this.localizedName = "Güçlendirici Alaşım Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, son derece sağlam ve dayanıklı"
       }
     }
     health = 900
@@ -219,6 +273,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "大型强化合金墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用"
+      }
+      tr_TR {
+        this.localizedName = "Büyük Güçlendirici Alaşım Duvar"
+        description = "Mülklerini korur, düşman mermilerini engeller, son derece sağlam ve dayanıklı"
       }
     }
     size = 2
@@ -240,6 +298,10 @@ object DefenseBlocks : Load {
         this.localizedName = "生物钢墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用.可以减免部分伤害,随时间缓慢自愈.\n能吸收激光和电弧,会阻止电力节点自动连接,可以放置在深水中"
       }
+      tr_TR {
+        this.localizedName = "Biyolojik Çelik Duvar"
+        description = "Mülklerini korur, son derece sağlam ve dayanıklı. Kısmi hasarı azaltabilir, zamanla yavaşça kendini onarır.\nLazerleri ve elektrik arklarını emebilir, güç düğümlerinin otomatik bağlanmasını engelleyebilir, derin sulara yerleştirilebilir"
+      }
     }
   }
   val 大型生物钢墙 = Wall("biologicalSteelWallLarge").apply {
@@ -258,6 +320,10 @@ object DefenseBlocks : Load {
         this.localizedName = "大型生物钢墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用.可以减免部分伤害,随时间缓慢自愈.\n能吸收激光和电弧,会阻止电力节点自动连接,可以放置在深水中"
       }
+      tr_TR {
+        this.localizedName = "Büyük Biyolojik Çelik Duvar"
+        description = "Mülklerini korur, son derece sağlam ve dayanıklı. Kısmi hasarı azaltabilir, zamanla yavaşça kendini onarır.\nLazerleri ve elektrik arklarını emebilir, güç düğümlerinin otomatik bağlanmasını engelleyebilir, derin sulara yerleştirilebilir"
+      }
     }
   }
   val 相位合金墙 = ShieldWall("phaseAlloyWall").apply {
@@ -265,6 +331,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "相位合金墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用.会以自身为中心投射一片小型立场护盾"
+      }
+      tr_TR {
+        this.localizedName = "Faz Alaşım Duvar"
+        description = "Mülklerini korur, son derece sağlam ve dayanıklı. Kendi merkezinde küçük bir kalkan alanı yansıtır"
       }
     }
     health = 1000
@@ -299,6 +369,10 @@ object DefenseBlocks : Load {
         this.localizedName = "大型相位合金墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用.会以自身为中心投射一片小型立场护盾"
       }
+      tr_TR {
+        this.localizedName = "Büyük Faz Alaşım Duvar"
+        description = "Mülklerini korur, son derece sağlam ve dayanıklı. Kendi merkezinde küçük bir kalkan alanı yansıtır"
+      }
     }
   }
   val 装甲闸门 = AutoDoor("armorGate").apply {
@@ -306,6 +380,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "装甲闸门"
         description = "允许单位通过的装甲门,自动开关"
+      }
+      tr_TR {
+        this.localizedName = "Zırhlı Kapı"
+        description = "Birimlerin geçmesine izin veren zırhlı kapı, otomatik açılır ve kapanır"
       }
     }
     size = 2
@@ -321,6 +399,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "相控雷达"
         description = "锁定范围内的敌方空中单位,攻击被锁定的目标有概率造成额外大量伤害,杀伤倍率和概率都取决于阵列大小"
+      }
+      tr_TR {
+        this.localizedName = "Faz Dizisi Radar"
+        description = "Menzil içindeki düşman hava birimlerini kilitler, kilitlenmiş hedeflere saldırı ekstra yüksek hasar verme olasılığına sahiptir, öldürme oranı ve olasılığı dizi boyutuna bağlıdır"
       }
     }
     squareSprite = false
@@ -348,6 +430,10 @@ object DefenseBlocks : Load {
         this.localizedName = "简并态中子墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用.产生巨大的引力吸引子弹,并吸收不太强的子弹以修补自身"
       }
+      tr_TR {
+        this.localizedName = "Degeneratif Nötron Duvar"
+        description = "Mülklerini korur, son derece sağlam ve dayanıklı. Mermileri çekmek için muazzam bir yerçekimi üretir ve güçsüz mermileri kendini onarmak için emer"
+      }
     }
     health = 2400
     density = 1024f
@@ -360,6 +446,10 @@ object DefenseBlocks : Load {
       zh_CN {
         this.localizedName = "大型简并态中子墙"
         description = "保护己方建筑,挡下敌方炮弹,极其坚固耐用.产生巨大的引力吸引子弹,并吸收不太强的子弹以修补自身"
+      }
+      tr_TR {
+        this.localizedName = "Büyük Degeneratif Nötron Duvar"
+        description = "Mülklerini korur, son derece sağlam ve dayanıklı. Mermileri çekmek için muazzam bir yerçekimi üretir ve güçsüz mermileri kendini onarmak için emer"
       }
     }
     size = 2
@@ -376,6 +466,11 @@ object DefenseBlocks : Load {
         this.localizedName = "混沌矩阵"
         description = "集成防御系统,反物质在力场的引导下,会按照生命游戏的规则在网格中不断演化\n具体来说,生命游戏所在的网格上,每一个单元格都是一个细胞,细胞只有两种状态,生与死,每一个细胞在一次刷新后的状态由它周围8个细胞决定,会遵循如下规则进行演化:\n[accent]当这个细胞处于死亡状态时[]\n[green]1.若周围的存活细胞数量为3则在下一刻转变为存活状态[]\n[gray]2.任何其他情况,细胞状态不变[]\n[accent]当这个细胞处于存活状态时[]\n[red]  1.若周围的存活细胞数量多于4(含4)则下一刻细胞死亡[]\n[red]2.若周围存活细胞数量少于2(不含2)则下一刻细胞死亡[] \n[gray]3.任何其他情况,细胞状态不变[]\n每一次刷新,所有存活的细胞寿命会增加1,在细胞死亡时,根据细胞的年龄会触发相应的效果,随细胞寿命的增加,强度会大幅度增强"
         details = "生命游戏这一概念原本是由数学家康威设计的一个计算机程序,早期,人们仅仅研究与探索了生命游戏在计算机程序程序级别的规律,其与自然科学的重叠几乎完全被忽视了,直到二十一世纪60年代,科学家发现在真空仓内的粒子涨落规律与生命游戏在形式上高度重合,生命游戏规则成为了一项科学规律\n在这一规则下进行受控的反物质湮灭可以得到最接近理论数据的能量利用效率,因此这一规则广泛被应用于能源与武装,不过,像混沌矩阵这样彻底的巨型网格本身还是一个过于大胆的尝试,所幸在巨大的学术压力下中止数次数次后该项目还是收获了非常突出的成果"
+      }
+      tr_TR {
+        this.localizedName = "Kaos Matrisi"
+        description = "Entegre savunma sistemi, antimadde kılavuzlanan kuvvet alanı altında, yaşam oyunu kurallarına göre ızgara içinde sürekli olarak evrimleşir\nDetaylı olarak, yaşam oyununun bulunduğu ızgarada, her hücre bir hücredir, hücrelerin yalnızca iki durumu vardır: canlı ve ölü, her hücrenin bir yenileme sonraki durumu, etrafındaki 8 hücre tarafından belirlenir, şu kuralları izleyerek evrimleşir:\n[accent]Bu hücre ölü durumundayken[]\n[green]1.Çevresindeki canlı hücre sayısı 3 ise bir sonraki anda canlı durumuna dönüşür[]\n[gray]2.Diğer tüm durumlarda hücre durumu değişmez[]\n[accent]Bu hücre canlı durumundayken[]\n[red]  1.Çevresindeki canlı hücre sayısı 4'ten fazla (dahil) ise bir sonraki anda hücre ölür[]\n[red]2.Çevresindeki canlı hücre sayısı 2'den az (hariç) ise bir sonraki anda hücre ölür[]\n[gray]3.Diğer tüm durumlarda hücre durumu değişmez[]\nHer yenilemede, tüm canlı hücrelerin yaşı 1 artar, hücre öldüğünde, hücrenin yaşına göre ilgili etkiler tetiklenir, hücre yaşı arttıkça güç önemli ölçüde artar"
+        details = "Yaşam oyunu kavramı başlangıçta matematikçi Conway tarafından tasarlanan bir bilgisayar programıydı, erken dönemde insanlar yaşam oyununu yalnızca bilgisayar programı düzeyinde araştırdı ve inceledi, doğal bilimlerle örtüşmesi neredeyse tamamen göz ardı edildi, 1960'larda bilim insanları vakum odasındaki parçacık dalgalanma yasalarının yaşam oyunuyla biçimsel olarak yüksek düzeyde örtüştüğünü keşfetti, yaşam oyunu kuralları bilimsel bir yasa haline geldi\nBu kural altında kontrollü antimadde yokluşu teorik verilere en yakın enerji verimliliği elde edebilir, bu nedenle bu kural enerji ve silah sistemlerinde yaygın olarak kullanılır, ancak Kaos Matrisi gibi devasa ızgara kendisi hala çok cesur bir girişimdir, büyük akademik baskı altında birçok kez durdurulduktan sonra, proje yine de çok önemli sonuçlar elde etti"
       }
     }
     requirements(Category.defense, IItems.钴钢,300, IItems.电子元件,100, IItems.简并态中子聚合物,100, IItems.絮凝剂,80, IItems.暮光合金,60, IItems.充能FEX水晶,60)

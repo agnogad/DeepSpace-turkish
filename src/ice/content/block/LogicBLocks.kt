@@ -20,6 +20,10 @@ object LogicBLocks :Load {
           localizedName = "信息板"
           description = "保存文字信息,用于队友间进行交流"
         }
+        tr_TR {
+          localizedName = "Bilgi Panosu"
+          description = "Metin bilgilerini kaydeder, takım arkadaşlarıyla iletişim için kullanılır"
+        }
       }
       health = 40
       requirements(Category.logic, IItems.低碳钢, 5, IItems.高碳钢, 5, IItems.铜锭, 3)
@@ -31,6 +35,10 @@ object LogicBLocks :Load {
         zh_CN {
           localizedName = "开关"
           description = "可切换的开关,开关状态可以用逻辑处理器读取和控制"
+        }
+        tr_TR {
+          localizedName = "Anahtar"
+          description = "Açılıp kapatılabilir anahtar, anahtar durumu mantık işlemci tarafından okunabilir ve kontrol edilebilir"
         }
       }
       health = 40
@@ -44,6 +52,10 @@ object LogicBLocks :Load {
         zh_CN {
           localizedName = "微型处理器"
           description = "循环运行一系列逻辑指令,可用于控制单位和建筑物"
+        }
+        tr_TR {
+          localizedName = "Mikro İşlemci"
+          description = "Bir dizi mantık talimatı döngüsel olarak çalıştırır, birimleri ve binaları kontrol etmek için kullanılabilir"
         }
       }
       requirements(Category.logic, IItems.低碳钢, 50, IItems.高碳钢, 50, IItems.铜锭, 20, IItems.单晶硅, 20)
@@ -61,6 +73,10 @@ object LogicBLocks :Load {
           localizedName = "逻辑处理器"
           description = "循环运行一系列逻辑指令,可用于控制单位和建筑物,比微型处理器更快"
         }
+        tr_TR {
+          localizedName = "Mantık İşlemci"
+          description = "Bir dizi mantık talimatı döngüsel olarak çalıştırır, birimleri ve binaları kontrol etmek için kullanılabilir, mikro işlemciden daha hızlı"
+        }
       }
       requirements(Category.logic, IItems.铝锭, 50, IItems.石墨烯, 50, IItems.金锭, 30, IItems.钴钢, 110, IItems.导能回路, 50)
 
@@ -76,6 +92,10 @@ object LogicBLocks :Load {
         zh_CN {
           localizedName = "超核处理器"
           description = "循环运行一系列逻辑指令,可用于控制单位和建筑物,比逻辑处理器更快"
+        }
+        tr_TR {
+          localizedName = "Hiper İşlemci"
+          description = "Bir dizi mantık talimatı döngüsel olarak çalıştırır, birimleri ve binaları kontrol etmek için kullanılabilir, mantık işlemciden daha hızlı"
         }
       }
       requirements(
@@ -111,6 +131,10 @@ object LogicBLocks :Load {
           localizedName = "内存元"
           description = "存储处理器的信息"
         }
+        tr_TR {
+          localizedName = "Hücre Bellek"
+          description = "İşlemci bilgilerini depolar"
+        }
       }
       requirements(Category.logic, IItems.高碳钢, 50, IItems.铜锭, 30, IItems.单晶硅, 30)
       health = 40
@@ -123,6 +147,10 @@ object LogicBLocks :Load {
         zh_CN {
           localizedName = "内存库"
           description = "存储处理器的信息,容量更大"
+        }
+        tr_TR {
+          localizedName = "Bellek Bankası"
+          description = "İşlemci bilgilerini depolar, daha büyük kapasite"
         }
       }
       health = 200

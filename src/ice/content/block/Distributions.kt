@@ -42,6 +42,10 @@ object Distributions : Load {
         localizedName = "基础传送带"
         description = "运输设施,造价低廉"
       }
+      tr_TR {
+        localizedName = "Temel Konveyör"
+        description = "Taşıma tesisi, düşük maliyetli"
+      }
     }
     size = 1
     speed = 6f
@@ -57,6 +61,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "强化传送带"
         description = "运输设施,造价低廉,比基础传送带更快"
+      }
+      tr_TR {
+        localizedName = "Güçlendirilmiş Konveyör"
+        description = "Taşıma tesisi, düşük maliyetli, temel konveyörden daha hızlı"
       }
     }
     size = 1
@@ -76,6 +84,10 @@ object Distributions : Load {
         localizedName = "特种传送带"
         description = "运输设施,比强化传送带更快,不接收侧面输入"
       }
+      tr_TR {
+        localizedName = "Özel Konveyör"
+        description = "Taşıma tesisi, güçlendirilmiş konveyörden daha hızlı, yan giriş kabul etmez"
+      }
     }
     size = 1
     speed = 15f
@@ -93,6 +105,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "血肉装甲传送带"
         description = "运输设施,比特种传送带更快,会缓慢回复生命值"
+      }
+      tr_TR {
+        localizedName = "Et Zırhhlı Konveyör"
+        description = "Taşıma tesisi, özel konveyörden daha hızlı, yavaşça sağlık yeniler"
       }
     }
     health = 600
@@ -112,6 +128,9 @@ object Distributions : Load {
     localization {
       zh_CN {
         localizedName = "钴熠传送带"
+      }
+      tr_TR {
+        localizedName = "Parlak Kobalt Konveyör"
       }
     }
     health = 120
@@ -134,6 +153,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "生物钢传送带"
         description = "运输设施,打包物品进行运输,通电后加快运输速度"
+      }
+      tr_TR {
+        localizedName = "Biyolojik Çelik Konveyör"
+        description = "Taşıma tesisi, eşyaları paketleyerek taşır, güç verildiğinde taşıma hızı artar"
       }
     }
     healAmount = 10f
@@ -179,6 +202,10 @@ object Distributions : Load {
         localizedName = "梯度传送带"
         description = "运输设施,打包多种物品进行运输"
       }
+      tr_TR {
+        localizedName = "Gradyan Konveyör"
+        description = "Taşıma tesisi, birden fazla eşyayı paketleyerek taşır"
+      }
     }
     health = 120
     speed = 60f / 600f
@@ -210,6 +237,10 @@ object Distributions : Load {
         localizedName = "基础交叉器"
         description = "两条交叉传送带的桥梁"
       }
+      tr_TR {
+        localizedName = "Temel Kavşak"
+        description = "İki çapraz konveyör köprüsü"
+      }
     }
     size = 1
     health = 100
@@ -220,6 +251,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "交叉神经链路"
         description = "两条交叉传送带的桥梁,比交叉器更快"
+      }
+      tr_TR {
+        localizedName = "Sinir Zinciri Kavşağı"
+        description = "İki çapraz konveyör köprüsü, kavşaktan daha hızlı"
       }
     }
     armor = 4f
@@ -236,6 +271,10 @@ object Distributions : Load {
         localizedName = "转换分类器"
         description = "如果物品与所选种类 相同/不同 ,则允许其通过.否则,物品将向两侧输出.可配置"
       }
+      tr_TR {
+        localizedName = "Dönüştürücü Ayırıcı"
+        description = "Eğer eşya seçili türle aynı/farklıysa geçmesine izin verilir. Aksi halde eşya iki yöne çıkar. Yapılandırılabilir"
+      }
     }
     size = 1
     health = 100
@@ -247,6 +286,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "基础路由器"
         description = "将物品平均分配至其他三个方向"
+      }
+      tr_TR {
+        localizedName = "Temel Yönlendirici"
+        description = "Eşyaları diğer üç yöne eşit olarak dağıtır"
       }
     }
     size = 1
@@ -260,6 +303,10 @@ object Distributions : Load {
         localizedName = "转换溢流门"
         description = "当 前方/两侧 被阻塞时才会向 两侧/前方 输出,用于处理多余的物品.可配置"
       }
+      tr_TR {
+        localizedName = "Dönüştürücü Taşma Kapısı"
+        description = "Ön/yanlar tıkandığında yanlara/öne çıkar, fazla eşyaları işlemek için kullanılır. Yapılandırılabilir"
+      }
     }
     size = 1
     health = 200
@@ -272,6 +319,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "基础传送带桥"
         description = "跨越地形货建筑传输物品"
+      }
+      tr_TR {
+        localizedName = "Temel Konveyör Köprüsü"
+        description = "Arazi veya binalar arasında eşya taşır"
       }
     }
     allowDiagonal = false
@@ -291,6 +342,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "装甲传送带桥"
         description = "跨越任何地形货建筑传输物品,比普通桥更快,更远"
+      }
+      tr_TR {
+        localizedName = "Zırhlı Konveyör Köprüsü"
+        description = "Herhangi bir arazi veya bina arasında eşya taşır, normal köprüden daha hızlı ve daha uzak"
       }
     }
     allowDiagonal = false
@@ -326,6 +381,10 @@ object Distributions : Load {
         localizedName = "增生传送带桥"
         description = "跨越任何地形货建筑传输物品,比装甲传送带桥更快,更远.会缓慢回复生命"
       }
+      tr_TR {
+        localizedName = "Büyüme Konveyör Köprüsü"
+        description = "Herhangi bir arazi veya bina arasında eşya taşır, zırhlı köprüden daha hızlı ve daha uzak. Yavaşça sağlık yeniler"
+      }
     }
   }
   val 传输节点 = TransferNode("transferNode").apply {
@@ -333,6 +392,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "传输节点"
         description = "能同时运输液体和物品,拥有较远的范围"
+      }
+      tr_TR {
+        localizedName = "Transfer Düğümü"
+        description = "Sıvı ve eşya aynı anda taşıyabilir, daha uzun menzile sahiptir"
       }
     }
     hasPower=false
@@ -349,6 +412,10 @@ object Distributions : Load {
         localizedName = "运输节点"
         description = "高级的传送带桥,可以对节点的任意侧面配置指定物品的输入与输出"
       }
+      tr_TR {
+        localizedName = "Taşıma Düğümü"
+        description = "Gelişmiş konveyör köprüsü, düğümün herhangi bir tarafında belirli eşyaların giriş ve çıkışını yapılandırabilir"
+      }
     }
     health = 80
     requirements(Category.distribution, IItems.电子元件, 8, IItems.气凝胶, 8, IItems.铝锭, 10)
@@ -361,6 +428,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "相位运输节点"
         description = "高级的传送带桥,具有更快的运输速度和更远的连接距离"
+      }
+      tr_TR {
+        localizedName = "Faz Taşıma Düğümü"
+        description = "Gelişmiş konveyör köprüsü, daha hızlı taşıma hızı ve daha uzun bağlantı mesafesine sahiptir"
       }
     }
     health = 150
@@ -383,6 +454,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "高效运输节点"
         description = "高级的传送带桥,具有更快的运输速度和更远的连接距离,节点还具备卸载器的功能,可以直接从指定方向的方块中抽取被选中的物品"
+      }
+      tr_TR {
+        localizedName = "Verimli Taşıma Düğümü"
+        description = "Gelişmiş konveyör köprüsü, daha hızlı taşıma hızı ve daha uzun bağlantı mesafesine sahiptir, düğüm ayrıca boşaltıcı işlevine sahiptir, seçilen eşyaları belirli yöndeki bloklardan doğrudan çekebilir"
       }
     }
     requirements(
@@ -411,6 +486,10 @@ object Distributions : Load {
         localizedName = "基础卸载器"
         description = "从容器中卸载物品"
       }
+      tr_TR {
+        localizedName = "Temel Boşaltıcı"
+        description = "Konteynerlerden eşya boşaltır"
+      }
     }
     speed = 60f / 10f
     health = 50
@@ -421,6 +500,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "极速卸载器"
         description = "从容器中高速卸载物品"
+      }
+      tr_TR {
+        localizedName = "Hızlı Boşaltıcı"
+        description = "Konteynerlerden yüksek hızda eşya boşaltır"
       }
     }
     speed = 60f / 30f
@@ -433,6 +516,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "量子卸载器"
         description = "从容器中超高速卸载物品"
+      }
+      tr_TR {
+        localizedName = "Kuantum Boşaltıcı"
+        description = "Konteynerlerden aşırı hızda eşya boşaltır"
       }
     }
     squareSprite=false
@@ -451,6 +538,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "质量驱动器"
         description = "远距离传输物品,收集若干物品后将其发射到另一个质量驱动器中"
+      }
+      tr_TR {
+        localizedName = "Kütle Sürücüsü"
+        description = "Uzun mesafede eşya taşır, birkaç eşya topladıktan sonra başka bir kütle sürücüsüne fırlatır"
       }
     }
     size = 2
@@ -476,6 +567,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "重型质量驱动器"
         description = "超远距离传输物品,收集若干物品后将其发射到另一个重型质量驱动器中,容量巨大但转速和发射速度缓慢"
+      }
+      tr_TR {
+        localizedName = "Ağır Hizmet Kütle Sürücüsü"
+        description = "Çok uzun mesafede eşya taşır, birkaç eşya topladıktan sonra başka bir ağır hizmet sürücüsüne fırlatır, kapasite çok büyük ama dönüş ve fırlatma hızı yavaş"
       }
     }
     size = 5
@@ -504,6 +599,10 @@ object Distributions : Load {
         localizedName = "物流枢纽核心"
         description = "简易的物品管理模块,通过管道统一分发物品"
       }
+      tr_TR {
+        localizedName = "Lojistik Merkez Çekirdeği"
+        description = "Basit eşya yönetim modülü, borular aracılığıyla eşyaları eşit olarak dağıtır"
+      }
     }
     requirements(
       Category.distribution, IItems.电子元件, 50, IItems.导能回路, 100, IItems.钴钢, 200, IItems.强化合金, 50
@@ -515,6 +614,10 @@ object Distributions : Load {
         localizedName = "枢纽管道"
         description = "物流枢纽通过此管道分发物品,必须临近放置"
       }
+      tr_TR {
+        localizedName = "Merkez Borusu"
+        description = "Lojistik merkezi bu boru aracılığıyla eşya dağıtır, yakınına yerleştirilmelidir"
+      }
     }
     requirements(Category.distribution, IItems.锌锭, 1, IItems.导能回路, 1)
   }
@@ -524,6 +627,10 @@ object Distributions : Load {
         localizedName = "物流输入器"
         description = "通过枢纽管道向当前核心输入物品"
       }
+      tr_TR {
+        localizedName = "Lojistik Girişçi"
+        description = "Merkez borusu aracılığıyla mevcut çekirdeğe eşya girişi yapar"
+      }
     }
     requirements(Category.distribution, IItems.铜锭, 20, IItems.导能回路, 5)
   }
@@ -532,6 +639,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "物流输出器"
         description = "通过枢纽管道从当前核心抽出物品"
+      }
+      tr_TR {
+        localizedName = "Lojistik Çıkışçı"
+        description = "Merkez borusu aracılığıyla mevcut çekirdekten eşya çıkarır"
       }
     }
     requirements(Category.distribution, IItems.锌锭, 1, IItems.电子元件, 1)
@@ -544,6 +655,10 @@ object Distributions : Load {
         localizedName = "无人机需求端"
         description = "用于从供货端接受物品"
       }
+      tr_TR {
+        localizedName = "İHA Talep Terminali"
+        description = "Tedarik terminalinden eşya almak için kullanılır"
+      }
     }
   }
   val 随机源 = Randomer("randomSource").apply {
@@ -551,6 +666,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "随机源"
         description = "随机输出所有资源"
+      }
+      tr_TR {
+        localizedName = "Rastgele Kaynak"
+        description = "Tüm kaynakları rastgele çıkarır"
       }
     }
     buildVisibility = BuildVisibility.sandboxOnly
@@ -560,6 +679,10 @@ object Distributions : Load {
       zh_CN {
         localizedName = "定向源"
         description = "定向输出所有资源"
+      }
+      tr_TR {
+        localizedName = "Yönlendirilmiş Kaynak"
+        description = "Tüm kaynakları yönlendirilmiş şekilde çıkarır"
       }
     }
   }

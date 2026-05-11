@@ -34,12 +34,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "多叶草"
       }
+      tr_TR {
+        this.localizedName = "Yapraklı Çim"
+      }
     }
   }
   val 地笼草 = Prop("cageGrass").apply {
     localization {
       zh_CN {
         this.localizedName = "地笼草"
+      }
+      tr_TR {
+        this.localizedName = "Kafes Otu"
       }
     }
   }
@@ -48,12 +54,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "枯棕枝"
       }
+      tr_TR {
+        this.localizedName = "Ölü Odun Çalısı"
+      }
     }
   }
   val 绿羽 = Prop("featherGrass").apply {
     localization {
       zh_CN {
         this.localizedName = "绿羽"
+      }
+      tr_TR {
+        this.localizedName = "Yeşil Tüy"
       }
     }
   }
@@ -62,12 +74,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "草嫣红"
       }
+      tr_TR {
+        this.localizedName = "Kırmızı Bahar Otu"
+      }
     }
   }
   val 绯叶绮 = Prop("scarletLeaf").apply {
     localization {
       zh_CN {
         this.localizedName = "绯叶绮"
+      }
+      tr_TR {
+        this.localizedName = "Kızıl Yaprak"
       }
     }
   }
@@ -76,6 +94,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "叶嫣粉"
       }
+      tr_TR {
+        this.localizedName = "Pembe Yaprak"
+      }
     }
   }
   val 血孢子丛 = Prop("bloodNeoplasmSporophore", Sounds.plantBreak).apply {
@@ -83,12 +104,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "血孢子丛"
       }
+      tr_TR {
+        this.localizedName = "Kan Sporu Demeti"
+      }
     }
   }
   val 血晶尖刺 = TallBlock("bloodCrystalSpikes").apply {
     localization {
       zh_CN {
         this.localizedName = "血晶尖刺"
+      }
+      tr_TR {
+        this.localizedName = "Kan Kristali Dikenleri"
       }
     }
   }
@@ -109,6 +136,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "殷红树"
       }
+      tr_TR {
+        this.localizedName = "Kanlı Ağaç"
+      }
     }
   }
   val 利芽 = TallBlock("edgeBud").apply {
@@ -117,12 +147,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "利芽"
       }
+      tr_TR {
+        this.localizedName = "Keskin Filiz"
+      }
     }
   }
   val 红冰石 = Prop("redIceStone").apply {
     localization {
       zh_CN {
         this.localizedName = "红冰石"
+      }
+      tr_TR {
+        this.localizedName = "Kırmızı Buz Taşı"
       }
     }
   }
@@ -136,6 +172,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "灵液"
       }
+      tr_TR {
+        this.localizedName = "Ruh Sıvısı"
+      }
     }
   }
   val 软红冰 = Floor("softRedIce").apply {
@@ -145,12 +184,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "软红冰"
       }
+      tr_TR {
+        this.localizedName = "Yumuşak Kırmızı Buz"
+      }
     }
   }
   val 绿羽地 = Floor("sod").apply {
     localization {
       zh_CN {
         this.localizedName = "绿羽地"
+      }
+      tr_TR {
+        this.localizedName = "Yeşil Tüy Arazisi"
       }
     }
   }
@@ -159,12 +204,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "绿羽墙"
       }
+      tr_TR {
+        this.localizedName = "Yeşil Tüy Duvarı"
+      }
     }
   }
   val 金珀沙 = Floor("goldPearlGrit").apply {
     localization {
       zh_CN {
         this.localizedName = "金珀沙"
+      }
+      tr_TR {
+        this.localizedName = "Altın Kehribar Kumu"
       }
     }
     itemDrop = IItems.金珀沙
@@ -174,6 +225,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "金珀沙水"
       }
+      tr_TR {
+        this.localizedName = "Altın Kehribar Kumu Suyu"
+      }
     }
     itemDrop = IItems.金珀沙
   }
@@ -182,12 +236,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "金珀沙墙"
       }
+      tr_TR {
+        this.localizedName = "Altın Kehribar Kumu Duvarı"
+      }
     }
   }
   val 皎月银沙石块 = Prop("silverSandStone").apply {
     localization {
       zh_CN {
         this.localizedName = "皎月银沙石块"
+      }
+      tr_TR {
+        this.localizedName = "Gümüş Kum Taşı"
       }
     }
   }
@@ -196,12 +256,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "皎月银沙"
       }
+      tr_TR {
+        this.localizedName = "Gümüş Kum"
+      }
     }
   }
   val 皎月银沙水 = ShallowLiquid("silverSandWater", 皎月银沙).apply {
     localization {
       zh_CN {
         this.localizedName = "皎月银沙水"
+      }
+      tr_TR {
+        this.localizedName = "Gümüş Kum Suyu"
       }
     }
   }
@@ -210,6 +276,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "皎月银沙墙"
       }
+      tr_TR {
+        this.localizedName = "Gümüş Kum Duvarı"
+      }
     }
   }
   val 风蚀沙柱 = TallBlock("windErodedSandPillar").apply {
@@ -217,12 +286,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "风蚀沙柱"
       }
+      tr_TR {
+        this.localizedName = "Rüzgar Oyuması Kum Sütunu"
+      }
     }
   }
   val 风蚀砂地 = Floor("windErodedGrit").apply {
     localization {
       zh_CN {
         this.localizedName = "风蚀砂地"
+      }
+      tr_TR {
+        this.localizedName = "Rüzgar Oyuması Çakıl Arazisi"
       }
     }
   }
@@ -232,12 +307,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "风蚀沙地"
       }
+      tr_TR {
+        this.localizedName = "Rüzgar Oyuması Kum Arazisi"
+      }
     }
   }
   val 风蚀沙水 = ShallowLiquid("windErodedSandWater", 风蚀沙地).apply {
     localization {
       zh_CN {
         this.localizedName = "风蚀沙水"
+      }
+      tr_TR {
+        this.localizedName = "Rüzgar Oyuması Kum Suyu"
       }
     }
   }
@@ -246,12 +327,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "风蚀沙深水"
       }
+      tr_TR {
+        this.localizedName = "Rüzgar Oyuması Kum Derin Suyu"
+      }
     }
   }
   val 风蚀沙墙 = StaticWall("windErodedSandWall").apply {
     localization {
       zh_CN {
         this.localizedName = "风蚀沙墙"
+      }
+      tr_TR {
+        this.localizedName = "Rüzgar Oyuması Kum Duvarı"
       }
     }
   }
@@ -262,12 +349,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "风蚀喷口"
       }
+      tr_TR {
+        this.localizedName = "Rüzgar Oyuması Faytonu"
+      }
     }
   }
   val 光辉板岩 = Floor("brillianceSlate").apply {
     localization {
       zh_CN {
         this.localizedName = "光辉板岩"
+      }
+      tr_TR {
+        this.localizedName = "Parlak Şist"
       }
     }
   }
@@ -276,12 +369,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "光辉板岩水"
       }
+      tr_TR {
+        this.localizedName = "Parlak Şist Suyu"
+      }
     }
   }
   val 光辉板岩墙 = StaticWall("brillianceSlateWall").apply {
     localization {
       zh_CN {
         this.localizedName = "光辉板岩墙"
+      }
+      tr_TR {
+        this.localizedName = "Parlak Şist Duvarı"
       }
     }
   }
@@ -290,12 +389,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "云英石柱"
       }
+      tr_TR {
+        this.localizedName = "Greizen Sütunu"
+      }
     }
   }
   val 云英岩 = Floor("greisen").apply {
     localization {
       zh_CN {
         this.localizedName = "云英岩"
+      }
+      tr_TR {
+        this.localizedName = "Greizen Kaya"
       }
     }
   }
@@ -304,12 +409,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "云英岩水"
       }
+      tr_TR {
+        this.localizedName = "Greizen Kaya Suyu"
+      }
     }
   }
   val 云英岩深水 = ShallowDeepLiquid("greisenDeepWater", 云英岩).apply {
     localization {
       zh_CN {
         this.localizedName = "云英岩深水"
+      }
+      tr_TR {
+        this.localizedName = "Greizen Kaya Derin Suyu"
       }
     }
   }
@@ -318,12 +429,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "云英岩墙"
       }
+      tr_TR {
+        this.localizedName = "Greizen Kaya Duvarı"
+      }
     }
   }
   val 红土石块 = Prop("redDirStone").apply {
     localization {
       zh_CN {
         this.localizedName = "红土石块"
+      }
+      tr_TR {
+        this.localizedName = "Kırmızı Toprak Taşı"
       }
     }
   }
@@ -332,12 +449,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "红土"
       }
+      tr_TR {
+        this.localizedName = "Kırmızı Toprak"
+      }
     }
   }
   val 红土墙 = StaticWall("redDirWall").apply {
     localization {
       zh_CN {
         this.localizedName = "红土墙"
+      }
+      tr_TR {
+        this.localizedName = "Kırmızı Toprak Duvarı"
       }
     }
   }
@@ -346,12 +469,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "流纹岩"
       }
+      tr_TR {
+        this.localizedName = "Liparit"
+      }
     }
   }
   val 流纹岩水 = ShallowLiquid("lipariteWater", 流纹岩).apply {
     localization {
       zh_CN {
         this.localizedName = "流纹岩水"
+      }
+      tr_TR {
+        this.localizedName = "Liparit Suyu"
       }
     }
   }
@@ -360,12 +489,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "流纹岩墙"
       }
+      tr_TR {
+        this.localizedName = "Liparit Duvarı"
+      }
     }
   }
   val 潮汐石 = Floor("nightTideStone").apply {
     localization {
       zh_CN {
         this.localizedName = "潮汐石"
+      }
+      tr_TR {
+        this.localizedName = "Gelgit Taşı"
       }
     }
   }
@@ -374,12 +509,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "潮汐水石"
       }
+      tr_TR {
+        this.localizedName = "Gelgit Taşı Suyu"
+      }
     }
   }
   val 潮汐石墙 = StaticWall("nightTideStoneWall").apply {
     localization {
       zh_CN {
         this.localizedName = "潮汐石墙"
+      }
+      tr_TR {
+        this.localizedName = "Gelgit Taşı Duvarı"
       }
     }
   }
@@ -390,12 +531,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "潮汐喷口"
       }
+      tr_TR {
+        this.localizedName = "Gelgit Faytonu"
+      }
     }
   }
   val 侵蚀层地 = Floor("erosionalSlate").apply {
     localization {
       zh_CN {
         this.localizedName = "侵蚀层地"
+      }
+      tr_TR {
+        this.localizedName = "Aşınım Şisti"
       }
     }
   }
@@ -404,12 +551,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "侵蚀层地水"
       }
+      tr_TR {
+        this.localizedName = "Aşınım Şisti Suyu"
+      }
     }
   }
   val 侵蚀层地墙 = StaticWall("erosionalSlateWall").apply {
     localization {
       zh_CN {
         this.localizedName = "侵蚀层地墙"
+      }
+      tr_TR {
+        this.localizedName = "Aşınım Şisti Duvarı"
       }
     }
 
@@ -420,12 +573,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "火成岩"
       }
+      tr_TR {
+        this.localizedName = "Volkanik Kaya"
+      }
     }
   }
   val 炎晶矿脉 = Floor("incandescent-crystal-vein").apply {
     localization {
       zh_CN {
         this.localizedName = "炎晶矿脉"
+      }
+      tr_TR {
+        this.localizedName = "Koruyucu Kristal Damarı"
       }
     }
     blendGroup = 火成岩
@@ -436,6 +595,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "炎晶脉搏"
       }
+      tr_TR {
+        this.localizedName = "Koruyucu Kristal Nabzı"
+      }
     }
     blendGroup = 火成岩
     attributes.set(Attribute.heat, 0.85f)
@@ -445,12 +607,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "燃素晶簇"
       }
+      tr_TR {
+        this.localizedName = "Flojiston Kristal Kümeleri"
+      }
     }
   }
   val 晶石地 = Floor("crystalStone").apply {
     localization {
       zh_CN {
         this.localizedName = "晶石地"
+      }
+      tr_TR {
+        this.localizedName = "Kristal Kaya Arazisi"
       }
     }
     attributes.set(IAttribute.沥青, 0.1f)
@@ -460,12 +628,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "晶石地水"
       }
+      tr_TR {
+        this.localizedName = "Kristal Kaya Suyu"
+      }
     }
   }
   val 晶石墙 = StaticWall("crystalStoneWall").apply {
     localization {
       zh_CN {
         this.localizedName = "晶石墙"
+      }
+      tr_TR {
+        this.localizedName = "Kristal Kaya Duvarı"
       }
     }
   }
@@ -474,12 +648,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "幽灵簇"
       }
+      tr_TR {
+        this.localizedName = "Hayalet Kümeleri"
+      }
     }
   }
   val 幽冥蕨 = TallBlock("ghostGrassFern").apply {
     localization {
       zh_CN {
         this.localizedName = "幽冥蕨"
+      }
+      tr_TR {
+        this.localizedName = "Hayalet Eğreltiotu"
       }
     }
   }
@@ -488,12 +668,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "缠怨花"
       }
+      tr_TR {
+        this.localizedName = "Lanetli Çiçek"
+      }
     }
   }
   val 幽灵草 = Floor("ghostGrass").apply {
     localization {
       zh_CN {
         this.localizedName = "幽灵草"
+      }
+      tr_TR {
+        this.localizedName = "Hayalet Çim"
       }
     }
   }
@@ -502,12 +688,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "幽灵草水"
       }
+      tr_TR {
+        this.localizedName = "Hayalet Çim Suyu"
+      }
     }
   }
   val 幽灵草深水 = ShallowDeepLiquid("ghostGrassDeepWater", 幽灵草).apply {
     localization {
       zh_CN {
         this.localizedName = "幽灵草深水"
+      }
+      tr_TR {
+        this.localizedName = "Hayalet Çim Derin Suyu"
       }
     }
   }
@@ -516,12 +708,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "幽灵草墙"
       }
+      tr_TR {
+        this.localizedName = "Hayalet Çim Duvarı"
+      }
     }
   }
   val 灰烬地 = Floor("ash").apply {
     localization {
       zh_CN {
         this.localizedName = "灰烬地"
+      }
+      tr_TR {
+        this.localizedName = "Kül Arazisi"
       }
     }
   }
@@ -530,12 +728,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "灰烬地水"
       }
+      tr_TR {
+        this.localizedName = "Kül Suyu"
+      }
     }
   }
   val 灰烬墙 = StaticWall("ashWall").apply {
     localization {
       zh_CN {
         this.localizedName = "灰烬墙"
+      }
+      tr_TR {
+        this.localizedName = "Kül Duvarı"
       }
     }
   }
@@ -544,6 +748,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "钢铁地板1"
       }
+      tr_TR {
+        this.localizedName = "Çelik Zemin 1"
+      }
     }
   }
   val 钢铁墙1 = StaticWall("steelFloorWall1").apply {
@@ -551,26 +758,42 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "钢铁墙1"
       }
+      tr_TR {
+        this.localizedName = "Çelik Duvar 1"
+      }
     }
   }
   val 钢铁地板2 = Floor("steelFloor2").apply {
     localization {
       zh_CN {
-        this.localizedName = "钢铁地板"
+        this.localizedName = "钢铁地板2"
       }
+      tr_TR {
+        this.localizedName = "Çelik Zemin 2"
+      }
+    }
+  }
     }
   }
   val 钢铁墙2 = StaticWall("steelFloorWall2").apply {
     localization {
       zh_CN {
-        this.localizedName = "钢铁墙"
+        this.localizedName = "钢铁墙2"
       }
+      tr_TR {
+        this.localizedName = "Çelik Duvar 2"
+      }
+    }
+  }
     }
   }
   val 精钢甲板 = Floor("steelFloor3").apply {
     localization {
       zh_CN {
         this.localizedName = "精钢甲板"
+      }
+      tr_TR {
+        this.localizedName = "Temperli Çelik Güverte"
       }
     }
   }
@@ -579,12 +802,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "跨界钢板"
       }
+      tr_TR {
+        this.localizedName = "Köprü Çeliği"
+      }
     }
   }
   val 跨界钢板墙 = StaticWall("bridgeSteelWall").apply {
     localization {
       zh_CN {
         this.localizedName = "跨界钢板墙"
+      }
+      tr_TR {
+        this.localizedName = "Köprü Çeliği Duvarı"
       }
     }
   }
@@ -593,12 +822,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "供能板"
       }
+      tr_TR {
+        this.localizedName = "Güç Panosu"
+      }
     }
   }
   val 供能墙 = StaticWall("powerWall").apply {
     localization {
       zh_CN {
         this.localizedName = "供能墙"
+      }
+      tr_TR {
+        this.localizedName = "Güç Duvarı"
       }
     }
   }
@@ -607,12 +842,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "诅咒之地"
       }
+      tr_TR {
+        this.localizedName = "Lanetli Toprak"
+      }
     }
   }
   val 诅咒之墙 = StaticWall("curseWall").apply {
     localization {
       zh_CN {
         this.localizedName = "诅咒之墙"
+      }
+      tr_TR {
+        this.localizedName = "Lanetli Duvar"
       }
     }
   }
@@ -621,6 +862,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "新月岩"
       }
+      tr_TR {
+        this.localizedName = "Hilal Kayası"
+      }
     }
   }
   val 新月岩水 = ShallowLiquid("crescentWater", 新月岩).apply {
@@ -628,12 +872,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "新月岩水"
       }
+      tr_TR {
+        this.localizedName = "Hilal Kayası Suyu"
+      }
     }
   }
   val 新月岩墙 = StaticWall("crescentWall").apply {
     localization {
       zh_CN {
         this.localizedName = "新月岩墙"
+      }
+      tr_TR {
+        this.localizedName = "Hilal Kayası Duvarı"
       }
     }
   }
@@ -655,12 +905,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "新月喷口"
       }
+      tr_TR {
+        this.localizedName = "Hilal Faytonu"
+      }
     }
   }
   val 凌冰尖刺 = TallBlock("tortureIceSpikes").apply {
     localization {
       zh_CN {
         this.localizedName = "凌冰尖刺"
+      }
+      tr_TR {
+        this.localizedName = "İşkence Buz Dikenleri"
       }
     }
   }
@@ -669,6 +925,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "凌冰石块"
       }
+      tr_TR {
+        this.localizedName = "İşkence Buz Taşı"
+      }
     }
   }
   val 霜寒草 = Prop("frostbiteGrass").apply {
@@ -676,12 +935,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "霜寒草"
       }
+      tr_TR {
+        this.localizedName = "Donma Otu"
+      }
     }
   }
   val 凌冰 = Floor("tortureIce").apply {
     localization {
       zh_CN {
         this.localizedName = "凌冰"
+      }
+      tr_TR {
+        this.localizedName = "İşkence Buz"
       }
     }
     attributes.set(IAttribute.寒冷, 1f)
@@ -691,6 +956,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "凌冰水"
       }
+      tr_TR {
+        this.localizedName = "İşkence Buz Suyu"
+      }
     }
     attributes.set(IAttribute.寒冷, 0.7f)
   }
@@ -699,6 +967,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "凌冰深水"
       }
+      tr_TR {
+        this.localizedName = "İşkence Buz Derin Suyu"
+      }
     }
     attributes.set(IAttribute.寒冷, 0.8f)
   }
@@ -706,6 +977,9 @@ object EnvironmentBlocks :Load {
     localization {
       zh_CN {
         this.localizedName = "凌冰墙"
+      }
+      tr_TR {
+        this.localizedName = "İşkence Buz Duvarı"
       }
     }
   }
@@ -726,6 +1000,9 @@ object EnvironmentBlocks :Load {
     localization {
       zh_CN {
         this.localizedName = "血浅滩"
+      }
+      tr_TR {
+        this.localizedName = "Kan Sığlığı"
       }
     }
   }
@@ -752,6 +1029,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "血池"
       }
+      tr_TR {
+        this.localizedName = "Kan Havuzu"
+      }
     }
   }
   val 深血池 = Floor("deepThickBlood").apply {
@@ -772,6 +1052,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "深血池"
       }
+      tr_TR {
+        this.localizedName = "Derin Kan Havuzu"
+      }
     }
   }
   val 浓稠深血池 = Floor("denseDeepThickBlood").apply {
@@ -791,6 +1074,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "浓稠深血池"
       }
+      tr_TR {
+        this.localizedName = "Yoğun Derin Kan Havuzu"
+      }
     }
   }
   val 肿瘤地 = Floor("bloodNeoplasma").apply {
@@ -799,12 +1085,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "肿瘤地"
       }
+      tr_TR {
+        this.localizedName = "Tümör Arazisi"
+      }
     }
   }
   val 碎骨地 = Floor("brokenBone").apply {
     localization {
       zh_CN {
         this.localizedName = "碎骨地"
+      }
+      tr_TR {
+        this.localizedName = "Kırık Kemik Arazisi"
       }
     }
   }
@@ -813,12 +1105,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "碎骨墙"
       }
+      tr_TR {
+        this.localizedName = "Kırık Kemik Duvarı"
+      }
     }
   }
   val 血沙石块 = Prop("bloodSandStone").apply {
     localization {
       zh_CN {
         this.localizedName = "血沙石块"
+      }
+      tr_TR {
+        this.localizedName = "Kan Kumu Taşı"
       }
     }
   }
@@ -827,6 +1125,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "殷血粗沙"
       }
+      tr_TR {
+        this.localizedName = "Kanlı Kaba Kum"
+      }
     }
   }
   val 殷血粗沙墙 = StaticWall("bloodSandWall").apply {
@@ -834,12 +1135,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "殷血粗沙墙"
       }
+      tr_TR {
+        this.localizedName = "Kanlı Kaba Kum Duvarı"
+      }
     }
   }
   val 骸骨地 = Floor("humanBones").apply {
     localization {
       zh_CN {
         this.localizedName = "骸骨地"
+      }
+      tr_TR {
+        this.localizedName = "İnsan Kemikleri Arazisi"
       }
     }
   }
@@ -851,6 +1158,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "血痂地"
       }
+      tr_TR {
+        this.localizedName = "Kan Kabuğu Arazisi"
+      }
     }
   }
   val 血痂岩 = Floor("bloodScarsStone").apply {
@@ -858,12 +1168,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "血痂岩"
       }
+      tr_TR {
+        this.localizedName = "Kan Kabuğu Kayası"
+      }
     }
   }
   val 血蚀岩石块 = Prop("bloodmoriteStone").apply {
     localization {
       zh_CN {
         this.localizedName = "血蚀岩石块"
+      }
+      tr_TR {
+        this.localizedName = "Kan Aşındırma Taşı"
       }
     }
   }
@@ -873,12 +1189,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "血蚀岩"
       }
+      tr_TR {
+        this.localizedName = "Kan Aşındırma Kayası"
+      }
     }
   }
   val 血蚀墙 = StaticWall("bloodmoriteWall").apply {
     localization {
       zh_CN {
         this.localizedName = "血蚀墙"
+      }
+      tr_TR {
+        this.localizedName = "Kan Aşındırma Duvarı"
       }
     }
   }
@@ -887,12 +1209,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "肿瘤墙"
       }
+      tr_TR {
+        this.localizedName = "Tümör Duvarı"
+      }
     }
   }
   val 红冰 = Floor("redIce").apply {
     localization {
       zh_CN {
         this.localizedName = "红冰"
+      }
+      tr_TR {
+        this.localizedName = "Kırmızı Buz"
       }
     }
   }
@@ -901,12 +1229,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "红冰墙"
       }
+      tr_TR {
+        this.localizedName = "Kırmızı Buz Duvarı"
+      }
     }
   }
   val 赤雪 = Floor("bloodIceSnow").apply {
     localization {
       zh_CN {
         this.localizedName = "赤雪"
+      }
+      tr_TR {
+        this.localizedName = "Kan Karı"
       }
     }
   }
@@ -915,6 +1249,9 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "红霜石块"
       }
+      tr_TR {
+        this.localizedName = "Kan Karı Taşı"
+      }
     }
   }
   val 红霜 = Floor("bloodSnow").apply {
@@ -922,12 +1259,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "红霜"
       }
+      tr_TR {
+        this.localizedName = "Kan Karı"
+      }
     }
   }
   val 红霜墙 = StaticWall("bloodSnowWall").apply {
     localization {
       zh_CN {
         this.localizedName = "红霜墙"
+      }
+      tr_TR {
+        this.localizedName = "Kan Karı Duvarı"
       }
     }
   }
@@ -938,6 +1281,9 @@ object EnvironmentBlocks :Load {
     localization {
       zh_CN {
         this.localizedName = "肿瘤喷口"
+      }
+      tr_TR {
+        this.localizedName = "Tümör Faytonu"
       }
     }
   }
@@ -958,12 +1304,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "肿瘤井"
       }
+      tr_TR {
+        this.localizedName = "Tümör Kuyusu"
+      }
     }
   }
   val 肉瘤菇 = TallBlock("bloodBall").apply {
     localization {
       zh_CN {
         this.localizedName = "肉瘤菇"
+      }
+      tr_TR {
+        this.localizedName = "Etli Tümör Mantarları"
       }
     }
   }
@@ -972,12 +1324,18 @@ object EnvironmentBlocks :Load {
       zh_CN {
         this.localizedName = "血蚀囊胚"
       }
+      tr_TR {
+        this.localizedName = "Kan Aşındırma Blastosist"
+      }
     }
   }
   val 缚肉树 = TallBlock("bloodFleshTree").apply {
     localization {
       zh_CN {
         this.localizedName = "缚肉树"
+      }
+      tr_TR {
+        this.localizedName = "Et Bağlayan Ağaç"
       }
     }
   }
@@ -987,6 +1345,9 @@ object EnvironmentBlocks :Load {
     localization {
       zh_CN {
         this.localizedName = "摄魂墙"
+      }
+      tr_TR {
+        this.localizedName = "Ruh Yakalayıcı Duvar"
       }
     }
   }

@@ -46,6 +46,9 @@ object IWeathers :Load {
       zh_CN {
         this.localizedName = "凌雪"
       }
+      tr_TR {
+        this.localizedName = "Acı Kar"
+      }
     }
   }
   var 血雨: Weather = object :RainWeather("bloodRain"), Localizable {
@@ -75,6 +78,9 @@ object IWeathers :Load {
     localization {
       zh_CN {
         this.localizedName = "血雨"
+      }
+      tr_TR {
+        this.localizedName = "Kan Yağmuru"
       }
     }
   }

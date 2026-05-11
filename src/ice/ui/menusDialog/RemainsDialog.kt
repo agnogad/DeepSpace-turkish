@@ -1,5 +1,6 @@
 package ice.ui.menusDialog
 
+import arc.Core
 import arc.scene.actions.Actions
 import arc.scene.ui.Image
 import arc.scene.ui.Label
@@ -41,7 +42,7 @@ object RemainsDialog :BaseMenusDialog(IceStats.遗物.localized(), IStyles.menus
         ta.table { gh ->
           gh.table(IFiles.createNinePatch("adwdddqddw")) {
             it.add(Label {
-              "正在生效: ${Remains.getEnableds().size} / $slotPos"
+              Core.bundle.format("remains.active", Remains.getEnableds().size, slotPos)
             }).color(IceColor.b4)
           }.margin(5f).marginLeft(20f).marginRight(20f).pad(10f).row()
           gh.iTable {
@@ -53,7 +54,7 @@ object RemainsDialog :BaseMenusDialog(IceStats.遗物.localized(), IStyles.menus
           gh.image(IStyles.whiteui).color(IceColor.b1).height(3f).growX().row()
           gh.iTable {
             it.top()
-            it.add("已拥有:").color(IceColor.b4).pad(10f).row()
+            it.add(Core.bundle.get("remains.owned")).color(IceColor.b4).pad(10f).row()
             it.icePane { ip ->
               ip.setRowsize(7)
               remainsTable = ip

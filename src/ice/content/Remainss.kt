@@ -28,6 +28,10 @@ object Remainss {
         this.localizedName = "娜雅的手串"
         description = "一串温润的玉石手串,在帝国任职期间由娜雅赠予"
       }
+      tr_TR {
+        this.localizedName = "Naya'nın Bilekliği"
+        description = "İmparatorlukta görev yaparken Naya tarafından verilen sıcak, pürüzsüz jade bileklik"
+      }
     }
     effect = "核心机增加拦截护盾"
     val units = IUnitTypes.getCoreUnits()
@@ -56,6 +60,10 @@ object Remainss {
         this.localizedName = "坚固的装甲板"
         description = "多层淬火钢板铆接而成,表面布满划痕与凹坑"
       }
+      tr_TR {
+        this.localizedName = "Sağlam Zırh Plakası"
+        description = "Çok katmanlı temperlenmiş çelik plakalar perçinlenmiş, yüzey çizikler ve çukurlarla kaplı"
+      }
     }
     val hea = 500
     effect = "单位[${IUnitTypes.断业.localizedName}]的生命值提升[$hea]"
@@ -75,6 +83,10 @@ object Remainss {
       zh_CN {
         this.localizedName = "不焚者的余烬"
         description = "温热的结晶体,烈焰中被焚尽却未曾死去之人的最后残留"
+      }
+      tr_TR {
+        this.localizedName = "Yanmazın Külleri"
+        description = "Sıcak kristaller, alevlerde yakılıp ama asla ölmeyenlerin son kalıntısı"
       }
     }
     val f = 5
@@ -100,6 +112,10 @@ object Remainss {
         this.localizedName = "纯净水晶坠饰"
         description = "一块天然形成,毫无杂质的透明白水晶"
       }
+      tr_TR {
+        this.localizedName = "Saf Kristal Kolye"
+        description = "Doğal olarak oluşmuş, safsızlığı olmayan şeffaf beyaz kristal"
+      }
     }
     effect = "玩家核心机[免疫所有状态]"
     val units = IUnitTypes.getCoreUnits()
@@ -124,6 +140,10 @@ object Remainss {
       zh_CN {
         this.localizedName = "玄岩板"
         description = "由奇异,沉重的玄武岩打磨而成"
+      }
+      tr_TR {
+        this.localizedName = "Bazalt Plaka"
+        description = "Garip, ağır bazalttan parlatılmış"
       }
     }
     effect = "[${CrafterBlocks.碳控熔炉.localizedName}]所需燃料减少[1]"
@@ -152,6 +172,10 @@ object Remainss {
       zh_CN {
         this.localizedName = "谐振探针"
         description = "一种用于探测矿物谐振频率的装置"
+      }
+      tr_TR {
+        this.localizedName = "Rezonans Probu"
+        description = "Minerallerin rezonans frekansını tespit etmek için kullanılan cihaz"
       }
     }
     effect = "矿物地板不再[隐藏]"
@@ -182,6 +206,10 @@ object Remainss {
         this.localizedName = "流光罗盘"
         description = "表面刻有古老的符文,会发出淡淡的光芒"
       }
+      tr_TR {
+        this.localizedName = "Akıp Giden Pusula"
+        description = "Üzerinde antik runlar oyulmuş, hafif bir ışık yayan pusula"
+      }
     }
     icon = DynamicTextureDrawable(name.appendModName()) {
       it.frameCount = 19
@@ -205,6 +233,9 @@ object Remainss {
     localization {
       zh_CN {
         this.localizedName = "不朽者胚胎"
+      }
+      tr_TR {
+        this.localizedName = "Ölümsüzün Embriyosu"
       }
     }
 
@@ -244,6 +275,10 @@ object Remainss {
       zh_CN {
         this.localizedName = "脊骨寄生虫"
         description = "一种具有高度神经亲和性的节状生物,渴望与血肉生物的中枢神经系统结合"
+      }
+      tr_TR {
+        this.localizedName = "Omurgalı Parazit"
+        description = "Yüksek nöral afiniteli, eklem bacaklı organizma, et ve kan canlılarının merkezi sinir sistemiyle birleşmeyi arzular"
       }
     }
     remainsColor = IceColor.r2
@@ -289,6 +324,10 @@ object Remainss {
         this.localizedName = "心跳鼓"
         description = "弹性心肌隔膜,回响着怀念之音"
       }
+      tr_TR {
+        this.localizedName = "Kalp Atışı Davulu"
+        description = "Esnek kalp kası zarı, özlem sesleri yankılanıyor"
+      }
     }
 
     effect = "使状态[${IStatus.回响.localizedName}]的影响提升[20%]"
@@ -314,6 +353,10 @@ object Remainss {
         localizedName = "多余的视线"
         description = "同一片神经系统的两个节点,我们相认的媒介"
       }
+      tr_TR {
+        localizedName = "Fazladan Bakış"
+        description = "Aynı sinir sisteminin iki düğümü, birbirimizi tanıdığımız araç"
+      }
     }
     icon = DynamicTextureDrawable(name.appendModName()) {
       it.frameCount = 24
@@ -337,6 +380,10 @@ object Remainss {
       zh_CN {
         localizedName = "血腥玛丽"
         description = "血与酒液在杯中摇匀,辛辣之后,只余缓慢扩散的猩红"
+      }
+      tr_TR {
+        localizedName = "Kanlı Mary"
+        description = "Kan ve şarap bardakta karıştırılır, acıdan sonra sadece yavaşça yayılan kırmızı kalır"
       }
     }
     icon = DynamicTextureDrawable(name.appendModName()) {
@@ -374,6 +421,9 @@ object Remainss {
       zh_CN {
         localizedName = "现彼岸"
       }
+      tr_TR {
+        localizedName = "Öteki Yaka"
+      }
     }
     remainsColor = IceColor.r2
     icon = DynamicTextureDrawable(name.appendModName()) {
@@ -385,6 +435,9 @@ object Remainss {
     localization {
       zh_CN {
         localizedName = "胎生百合"
+      }
+      tr_TR {
+        localizedName = "Canlı Doğuran Zambak"
       }
     }
     remainsColor = IceColor.r2

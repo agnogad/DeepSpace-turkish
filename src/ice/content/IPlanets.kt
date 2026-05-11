@@ -23,6 +23,9 @@ object IPlanets :Load {
       zh_CN {
         this.localizedName = "伊甸"
       }
+      tr_TR {
+        this.localizedName = "İdeal"
+      }
     }
     bloom = true
     accessible = false
@@ -56,6 +59,9 @@ object IPlanets :Load {
     localization {
       zh_CN {
         this.localizedName = "阿德里"
+      }
+      tr_TR {
+        this.localizedName = "Adri"
       }
     }
     generator = ArderyPlanetGenerator()

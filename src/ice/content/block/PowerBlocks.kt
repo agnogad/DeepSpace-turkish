@@ -67,6 +67,10 @@ object PowerBlocks : Load {
         this.localizedName = "能量节点"
         description = "通过激光束传输电力,可连接多个节点扩展电网范围"
       }
+      tr_TR {
+        this.localizedName = "Enerji Düğümü"
+        description = "Lazer ışını ile elektrik iletir, birden fazla düğüme bağlanarak güç ağı menzilini genişletir"
+      }
     }
     squareSprite = false
     requirements(Category.power, IItems.高碳钢, 2, IItems.锌锭, 5, IItems.铜锭, 5)
@@ -85,6 +89,10 @@ object PowerBlocks : Load {
       zh_CN {
         this.localizedName = "大型能量节点"
         description = "通过激光束传输电力,可连接多个节点扩展电网范围"
+      }
+      tr_TR {
+        this.localizedName = "Büyük Enerji Düğümü"
+        description = "Lazer ışını ile elektrik iletir, birden fazla düğüme bağlanarak güç ağı menzilini genişletir"
       }
     }
     size = 3
@@ -119,6 +127,10 @@ object PowerBlocks : Load {
         this.localizedName = "神经索节点"
         description = "向连接的建筑传输电力"
       }
+      tr_TR {
+        this.localizedName = "Sinir Kordonu Düğümü"
+        description = "Bağlı yapılara elektrik iletir"
+      }
     }
   }
   val 神经束节点 = PowerNode("neuralBeamNode").apply {
@@ -139,6 +151,10 @@ object PowerBlocks : Load {
         this.localizedName = "神经束节点"
         description = "向更大范围连接的建筑传输电力"
       }
+      tr_TR {
+        this.localizedName = "Sinir Demeti Düğümü"
+        description = "Daha geniş alandaki yapılara elektrik iletir"
+      }
     }
   }
   val 远程能量节点 = PowerNode("remotePowerNode").apply {
@@ -156,6 +172,10 @@ object PowerBlocks : Load {
         this.localizedName = "远程能量节点"
         description = "向超大范围连接的建筑传输电力"
       }
+      tr_TR {
+        this.localizedName = "Uzaktan Enerji Düğümü"
+        description = "Çok geniş alandaki yapılara elektrik iletir"
+      }
     }
   }
 
@@ -171,6 +191,10 @@ object PowerBlocks : Load {
       zh_CN {
         this.localizedName = "小型能量电池"
         description = "存储少量电力,受损会发生爆炸"
+      }
+      tr_TR {
+        this.localizedName = "Küçük Enerji Pili"
+        description = "Az miktarda elektrik depolar, hasar gördüğünde patlar"
       }
     }
   }
@@ -188,6 +212,10 @@ object PowerBlocks : Load {
         this.localizedName = "能量电池"
         description = "存储大量电力,受损会发生爆炸"
       }
+      tr_TR {
+        this.localizedName = "Enerji Pili"
+        description = "Bol miktarda elektrik depolar, hasar gördüğünde patlar"
+      }
     }
   }
   val 大型能量电池: Block = Battery("largePowerBattery").apply {
@@ -204,6 +232,10 @@ object PowerBlocks : Load {
         this.localizedName = "大型能量电池"
         description = "存储巨量电力,受损会发生爆炸"
       }
+      tr_TR {
+        this.localizedName = "Büyük Enerji Pili"
+        description = "Devasa miktarda elektrik depolar, hasar gördüğünde patlar"
+      }
     }
   }
 
@@ -212,6 +244,10 @@ object PowerBlocks : Load {
       zh_CN {
         this.localizedName = "光伏板"
         description = "利用恒星光产生电力,无需维护即可持续运作,提供基础能源支持"
+      }
+      tr_TR {
+        this.localizedName = "Güneş Paneli"
+        description = "Yıldız ışığından elektrik üretir, bakım gerektirmeden sürekli çalışır"
       }
     }
     size = 2
@@ -223,6 +259,10 @@ object PowerBlocks : Load {
       zh_CN {
         this.localizedName = "铈基热电机组"
         description = "裂解铈进行热能转换,可以产生大量电力"
+      }
+      tr_TR {
+        this.localizedName = "Seryum Bazlı Termal Jeneratör"
+        description = "Seryumu parçalayarak termal enerji dönüşümü yapar, bol miktarda elektrik üretir"
       }
     }
     size=2
@@ -250,6 +290,10 @@ object PowerBlocks : Load {
         this.localizedName = "地热发电机"
         description = "利用地热能持续产生电力,需要建造在高热量区域以发挥最大效率,稳定供能"
       }
+      tr_TR {
+        this.localizedName = "Jeotermal Jeneratör"
+        description = "Jeotermal enerjiyle sürekli elektrik üretir, maksimum verimlilik için yüksek sıcaklık bölgelerine inşa edilmelidir"
+      }
     }
     size = 3
     floating = true
@@ -267,6 +311,10 @@ object PowerBlocks : Load {
         this.localizedName = "燃烧发电机"
         description = "燃烧可燃物缓慢生产电力"
       }
+      tr_TR {
+        this.localizedName = "Yanmalı Jeneratör"
+        description = "Yanıcı maddeleri yakarak yavaşça elektrik üretir"
+      }
     }
     powerProduction = 1f
     itemDuration = 120f
@@ -283,6 +331,10 @@ object PowerBlocks : Load {
         localizedName = "风力发电机"
         description = "依靠风场发电,无需维护即可持续运作,但无法稳定提供电力来源.工作区域内不能放置大型建筑,否则无法工作"
       }
+      tr_TR {
+        this.localizedName = "Rüzgar Türbini"
+        description = "Rüzgar alanından elektrik üretir, bakım gerektirmeden sürekli çalışır ancak istikrarlı güç sağlayamaz. Çalışma alanına büyük yapılar yerleştirilemez"
+      }
     }
     basePowerProduction = 70f
     size = 2
@@ -296,6 +348,10 @@ object PowerBlocks : Load {
         localizedName = "大型风力发电机"
         description = "高效依靠风场发电,无需维护即可持续运作,但无法稳定提供电力来源.工作区域内不能放置大型建筑,否则无法工作"
       }
+      tr_TR {
+        this.localizedName = "Büyük Rüzgar Türbini"
+        description = "Verimli rüzgar enerjisi üretir, bakım gerektirmeden sürekli çalışır ancak istikrarlı güç sağlayamaz. Çalışma alanına büyük yapılar yerleştirilemez"
+      }
     }
     size = 4
     health = 500
@@ -308,6 +364,10 @@ object PowerBlocks : Load {
       zh_CN {
         this.localizedName = "蒸汽冷凝机"
         description = "建造在喷气口上时生产少量电力与水"
+      }
+      tr_TR {
+        this.localizedName = "Buhar Kondansatörü"
+        description = "Fayton üzerine inşa edildiğinde az miktarda elektrik ve su üretir"
       }
     }
     squareSprite = false
@@ -338,6 +398,10 @@ object PowerBlocks : Load {
         this.localizedName = "沼气发电机"
         description = "燃烧沼气缓慢生产电力"
       }
+      tr_TR {
+        this.localizedName = "Biogaz Jeneratörü"
+        description = "Biogazı yakarak yavaşça elektrik üretir"
+      }
     }
     size = 2
     liquidCapacity = 60f
@@ -362,6 +426,10 @@ object PowerBlocks : Load {
       zh_CN {
         this.localizedName = "热核裂变反应堆"
         description = "利用钍燃料进行核裂变反应产生大量电力,需要大量急冻液冷却以防止过热,否则将发生剧烈爆炸"
+      }
+      tr_TR {
+        this.localizedName = "Termal Nükleer Fisyon Reaktörü"
+        description = "Toryum yakıtıyla nükleer fisyon reaksiyonu gerçekleştirerek bol miktarda elektrik üretir, aşırı ısınmayı önlemek için bol dondurma sıvısı soğutması gerektirir"
       }
     }
     fuelItem = IItems.钍锭
@@ -420,6 +488,10 @@ object PowerBlocks : Load {
         this.localizedName = "血肉反应堆"
         description = "刺激生物钢产生大量电力,运行时会产生强烈波动"
       }
+      tr_TR {
+        this.localizedName = "Et- Kan Reaktörü"
+        description = "Biyolojik çeliği uyararak bol miktarda elektrik üretir, çalışırken güçlü dalgalanmalar oluşturur"
+      }
     }
   }
   val 终归反应堆 = ImpactReactor("endImpactReactor").apply {
@@ -444,6 +516,10 @@ object PowerBlocks : Load {
       zh_CN {
         localizedName = "终归反应堆"
         description = "约束以太能的剧烈反应产生巨量电力,需要持续输入能量维持力场稳定,否则将引发灾难性爆炸"
+      }
+      tr_TR {
+        this.localizedName = "Sonsuzluk Reaktörü"
+        description = "Eter enerjisinin şiddetli reaksiyonunu kontrol ederek devasa elektrik üretir, güç alanını stabilize etmek için sürekli enerji girişi gerektirir"
       }
     }
     destroyEffect = MultiEffect(ParticleEffect().apply {
@@ -762,6 +838,10 @@ object PowerBlocks : Load {
         this.localizedName = "中子能发电机"
         description = "分解中子生产大量电力"
       }
+      tr_TR {
+        this.localizedName = "Nötron Jeneratörü"
+        description = "Nötronları parçalayarak bol miktarda elektrik üretir"
+      }
     }
     requirements(
       Category.power, IItems.强化合金, 100, IItems.充能FEX水晶, 80, IItems.铀238, 75, IItems.絮凝剂, 70, IItems.气凝胶, 90
@@ -792,6 +872,10 @@ object PowerBlocks : Load {
       zh_CN {
         this.localizedName = "核子冲击反应堆"
         description = "定向约束核爆炸并推动压电转子发电"
+      }
+      tr_TR {
+        this.localizedName = "Nükleer Darbe Reaktörü"
+        description = "Yönlendirilmiş nükleer patlamayı kontrol eder ve piezoelektrik rotoru çevirerek elektrik üretir"
       }
     }
     requirements(

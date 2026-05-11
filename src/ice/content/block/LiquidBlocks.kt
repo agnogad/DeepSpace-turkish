@@ -17,6 +17,10 @@ object LiquidBlocks :Load {
         localizedName = "泵腔"
         description = "一边跳动...一边泵出流体..."
       }
+      tr_TR {
+        localizedName = "Pompa Odacığı"
+        description = "Atarken... sıvı pompalar..."
+      }
     }
   }
   val 动力泵 = 动力泵()

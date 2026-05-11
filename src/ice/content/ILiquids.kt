@@ -36,6 +36,10 @@ object ILiquids :Load {
         this.localizedName = "腐殖浆体"
         description = "一种富含有机质的浆体,可用于土壤改良"
       }
+      tr_TR {
+        this.localizedName = "Humuslu Slurry"
+        description = "Organik madde açısından zengin sıvı, toprak iyileştirme için kullanılabilir"
+      }
     }
     viscosity = 0.6f
     temperature = 0.3f
@@ -45,6 +49,10 @@ object ILiquids :Load {
       zh_CN {
         this.localizedName = "温热孢液"
         description = "一种温暖的孢子悬浮液,具有生物活性"
+      }
+      tr_TR {
+        this.localizedName = "Sıcak Spor Sıvısı"
+        description = "Biyolojik aktiviteye sahip sıcak bir spor süspansiyonu"
       }
     }
     temperature = 0.8f
@@ -57,6 +65,10 @@ object ILiquids :Load {
         this.localizedName = "芥蒂液"
         description = "一种灰色的中性液体,可用于中和反应"
       }
+      tr_TR {
+        this.localizedName = "Garip Sıvı"
+        description = "Nötrleştirme reaksiyonları için kullanılabilen gri nötr sıvı"
+      }
     }
     viscosity = 0.4f
     temperature = 0.5f
@@ -66,6 +78,10 @@ object ILiquids :Load {
       zh_CN {
         this.localizedName = "废水"
         description = "一种由工业生产排放的强放射性废水,被其污染过的地区极难再次使用"
+      }
+      tr_TR {
+        this.localizedName = "Atık Su"
+        description = "Endüstriyel üretimden kaynaklanan güçlü radyoaktif atık su, kirlenmiş alanlar yeniden kullanılması çok zor"
       }
     }
     incinerable = false
@@ -79,6 +95,10 @@ object ILiquids :Load {
       zh_CN {
         this.localizedName = "浓稠血浆"
         description = "从朔方蔓延而来"
+      }
+      tr_TR {
+        this.localizedName = "Yoğun Plazma"
+        description = "Kuzeyden yayılıyor"
       }
     }
     nutrientConcentration = 0.2f
@@ -98,6 +118,10 @@ object ILiquids :Load {
         this.localizedName = "急冻液"
         description = "由低温化合物与冷却液混合而成,比冷却液效果更强"
       }
+      tr_TR {
+        this.localizedName = "Hızlı Dondurma Sıvısı"
+        description = "Düşük sıcaklık bileşikleri ve soğutma sıvısı karışımından yapılmış, soğutma sıvısından daha etkili"
+      }
     }
     lightColor = Color.valueOf("E1E9F09A")
     effect = StatusEffects.freezing
@@ -111,6 +135,10 @@ object ILiquids :Load {
         this.localizedName = "灵液"
         description = "一种酸性极强的溶液,可以用来处理金属"
       }
+      tr_TR {
+        this.localizedName = "Şeytani Sıvı"
+        description = "Metalleri işlemek için kullanılabilen aşırı asitli çözelti"
+      }
     }
     viscosity = 0.7f
     boilPoint = 1.7f
@@ -121,6 +149,11 @@ object ILiquids :Load {
         this.localizedName = "血肉赘生物"
         description = "一种高温且易燃易爆的烈性流体,制取或运输该液体时,请使用专用管道!"
         details = "[red]鲜血必将流淌[]"
+      }
+      tr_TR {
+        this.localizedName = "Et ve Kan Paraziti"
+        description = "Yüksek sıcaklıkta ve kolay alev alan, patlayıcı akışkan, bu sıvıyı üretirken veya taşırken lütfen özel boru hattı kullanın!"
+        details = "[red]Kan dökülecek[]"
       }
     }
     incinerable = false
@@ -147,6 +180,10 @@ object ILiquids :Load {
         this.localizedName = "超临界流体"
         description = "一种通过复杂工业化处理萃取出的特殊流体,具有良好的传质、传热及溶解性能"
       }
+      tr_TR {
+        this.localizedName = "Süperkritik Akışkan"
+        description = "Karmaşık endüstriyel işleme ile çıkarılan özel akışkan, mükemmel kütle transferi, ısı transferi ve çözünürlük özelliklerine sahip"
+      }
     }
     incinerable = false
     lightColor = Color.valueOf("E1776A9A")
@@ -162,6 +199,10 @@ object ILiquids :Load {
         this.localizedName = "暮光液"
         description = "暮光液"
       }
+      tr_TR {
+        this.localizedName = "Alacakaranlık Sıvısı"
+        description = "Alacakaranlık sıvısı"
+      }
     }
     temperature = 0.2f
   }
@@ -172,6 +213,11 @@ object ILiquids :Load {
           this.localizedName = "纯净水"
           description = "分离掉其中的杂质的水,在各类严格的流程中是必要的"
           details = "为避免引入杂质,作为溶剂的水必须经过净化去除其中可能影响产品质量的其他物质"
+        }
+        tr_TR {
+          this.localizedName = "Saf Su"
+          description = "Saflaştırılmış su, çeşitli katı süreçlerde gereklidir"
+          details = "Safsızlıkları önlemek için çözücü olarak kullanılan su, ürün kalitesini etkileyebilecek diğer maddeleri gidermek için saflaştırılmalıdır"
         }
       }
       heatCapacity = 0.45f
@@ -202,6 +248,11 @@ object ILiquids :Load {
         description = "藻类微生物繁衍的集合体,用途广泛"
         details = "微生物在极端恶劣的环境下会脱去水分进入休眠状态,抗逆性极大提高"
       }
+      tr_TR {
+        this.localizedName = " Yosun Çamuru"
+        description = "Alg mikroorganizmalarının çoğalma topluluğu, geniş kullanım alanları"
+        details = "Mikroorganizmalar aşırı sert ortamlarda suyunu kaybedip dormansi durumuna girer, dirençleri büyük ölçüde artar"
+      }
     }
     heatCapacity = 0.4f
     explosiveness = 0f
@@ -231,6 +282,11 @@ object ILiquids :Load {
         description = "复合酸液,工业用途广泛,金属冶炼和物质合成都不可或缺"
         details = "\"当心腐蚀\"\n\"穿戴防护措施\"\n\"挥发性\""
       }
+      tr_TR {
+        this.localizedName = "Asit"
+        description = "Kompleks asit sıvısı, endüstriyel kullanımda yaygın, metal ergitme ve madde sentezi için vazgeçilmez"
+        details = "\"Dikkat aşındırıcı\"\n\"Koruyucu ekipman giyin\"\n\"Uçucu\""
+      }
     }
     heatCapacity = 0.5f
     temperature = 0.45f
@@ -250,6 +306,11 @@ object ILiquids :Load {
         description = "复合碱液,工业用途广泛,金属冶炼和物质合成都不可或缺"
         details = "\"当心腐蚀\"\n\"穿戴防护措施\"\n\"挥发性\""
       }
+      tr_TR {
+        this.localizedName = "碱 Sıvısı"
+        description = "Kompleks alkali sıvısı, endüstriyel kullanımda yaygın, metal ergitme ve madde sentezi için vazgeçilmez"
+        details = "\"Dikkat aşındırıcı\"\n\"Koruyucu ekipman giyin\"\n\"Uçucu\""
+      }
     }
     temperature = 0.45f
     flammability = 0f
@@ -267,6 +328,10 @@ object ILiquids :Load {
       zh_CN {
         this.localizedName = "氯化硅溶胶"
         description = "富含硅的胶状化合物,易富集硅元素,可用于制造硅或者气凝胶"
+      }
+      tr_TR {
+        this.localizedName = "Silisyum Klorür Sol"
+        description = "Silisyum açısından zengin jel bileşiği, silisyum elementini kolayca zenginleştirir, silisyum veya aerogel üretmek için kullanılabilir"
       }
     }
     heatCapacity = 0.65f
@@ -288,6 +353,12 @@ object ILiquids :Load {
         details =
           "通常来说在自然地壳中的金属矿物会有一定的富集作用,往往矿物集团伴生的金属种类不会很多,但在软流层上部这一规律似乎就不适用了,岩浆流会把各种矿物搅和在一起,在靠近那里开采的矿石里几乎什么都能弄到"
       }
+      tr_TR {
+        this.localizedName = "Kompleks Mineral Çözeltisi"
+        description = "Çeşitli mineral iyonları içeren tuz çözeltisi, iyonize edildiğinde çeşitli metal ürünler elde edilebilir"
+        details =
+          "Genel olarak doğal kabukta metalik minerallerin belirli bir zenginleşmesi olur, genellikle mineral gruplarıyla birlikte bulunan metal türleri çok fazla değildir, ancak bu yasalar üst manto için geçerli görünmüyor, magma akışı çeşitli mineralleri bir araya getirir, yakınlarda çıkarılan cevherlerden hemen her şey elde edilebilir"
+      }
     }
     heatCapacity = 0.6f
     temperature = 0.65f
@@ -306,6 +377,10 @@ object ILiquids :Load {
         this.localizedName = "铀盐溶液"
         description = "富含大量铀金属离子的溶液,是铀矿物处理的中间物"
       }
+      tr_TR {
+        this.localizedName = "Uranyum Tuz Çözeltisi"
+        description = "Büyük miktarda uranyum metal iyonları açısından zengin çözelti, uranyum mineral işlemenin ara ürünü"
+      }
     }
     heatCapacity = 0.6f
     temperature = 0.65f
@@ -322,6 +397,11 @@ object ILiquids :Load {
           this.localizedName = "FEX流体"
           description = "经分离杂质后的FEX的原始形态,一种半流体,需要结晶为高纯度的晶体才能满足工业需求"
           details = "流动的越快,流动就会越慢...流动速度会决定FEX的粘度,它会在任何接触的致密介质上发生富集和弱结晶"
+        }
+        tr_TR {
+          this.localizedName = "FEX Akışkanı"
+          description = "Saflaştırılmış FEX'in ham formu, yarı akışkan, endüstriyel ihtiyaçları karşılamak için yüksek saflıkta kristalleştirilmesi gerekir"
+          details = "Ne kadar hızlı akarsa, o kadar yavaş akar... Akış hızı FEX'in viskozitesini belirler, herhangi bir yoğun ortamla temas ettiğinde zenginleşir ve hafifçe kristalleşir"
         }
       }
       heatCapacity = 1f
@@ -353,6 +433,11 @@ object ILiquids :Load {
           description = "相位化后的FEX流体,物理性质改变,表面张力有自发性的剧烈波动,且具会与其接触介质发生共振,性能优越的流质能量载体"
           details = "严禁在无谐振防护的情况下靠近储存相位态FEX的储罐或者储液槽"
         }
+        tr_TR {
+          this.localizedName = "Faz Durumu FEX Akışkanı"
+          description = "Fazlanmış FEX akışkanı, fiziksel özellikleri değişti, yüzey gerilimi kendiliğinden şiddetli dalgalanmalar gösterir ve temas ettiği ortamla rezonansa girer, üstün performanslı sıvı enerji taşıyıcı"
+          details = "Rezonans koruması olmadan Faz Durumu FEX'i depolayan tanklara veya sıvı depolama havuzlarına yaklaşmak kesinlikle yasaktır"
+        }
       }
       heatCapacity = 1.25f
       explosiveness = 0f
@@ -383,6 +468,10 @@ object ILiquids :Load {
         this.localizedName = "氧气"
         description = "最常用的气体,在工业生产中都作为氧化剂"
       }
+      tr_TR {
+        this.localizedName = "Oksijen"
+        description = "En yaygın kullanılan gaz, endüstriyel üretimde oksitleyici olarak kullanılır"
+      }
     }
     gas = true
     explosiveness = 0f
@@ -395,6 +484,10 @@ object ILiquids :Load {
       zh_CN {
         this.localizedName = "二氧化碳"
         description = "大气中普遍存在的温室气体,在工业生产中,二氧化碳常被用作制冷剂,惰性保护气体"
+      }
+      tr_TR {
+        this.localizedName = "Karbondioksit"
+        description = "Atmosferde yaygın olarak bulunan sera gazı, endüstriyel üretimde karbondioksit genellikle soğutucu, inert koruyucu gaz olarak kullanılır"
       }
     }
     gas = true
@@ -409,6 +502,10 @@ object ILiquids :Load {
       zh_CN {
         this.localizedName = "二氧化硫"
         description = "一种氧化性气体,通常用于制备硫酸"
+      }
+      tr_TR {
+        this.localizedName = "Kükürt Dioksit"
+        description = "Sülfürik asit üretmek için genellikle kullanılan oksitleyici gaz"
       }
     }
     gas = true
@@ -426,6 +523,10 @@ object ILiquids :Load {
         this.localizedName = "沼气"
         description = "一种天然气体,主要成分是甲烷,可替代部分工厂的燃料需求"
       }
+      tr_TR {
+        this.localizedName = "Biogaz"
+        description = "Bir doğal gaz, ana bileşeni metan, bazı fabrikaların yakıt ihtiyaçlarının yerini alabilir"
+      }
     }
     gas = true
     explosiveness = 0.5f
@@ -438,6 +539,10 @@ object ILiquids :Load {
         this.localizedName = "氢气"
         description = ""
       }
+      tr_TR {
+        this.localizedName = "Hidrojen"
+        description = ""
+      }
     }
     gas = true
     flammability = 1f
@@ -448,6 +553,11 @@ object ILiquids :Load {
         this.localizedName = "氦气"
         description = "较为常见的0族惰性气体,常用作工业保护气或通过中子流轰击生产核聚变燃料"
         details = "一般来说氦气在行星岩层中的分布会比较丰富,由于原子质量过轻,在有大气的行星地表很难大量存在"
+      }
+      tr_TR {
+        this.localizedName = "Helyum"
+        description = "Yaygın 0 grubu asal gaz, endüstriyel koruyucu gaz olarak veya nötron akışı bombardımanıyla nükleer füzyon yakıtı üretmek için kullanılır"
+        details = "Genel olarak helyum gezegen kayalarında bol miktarda dağılır, atom kütlesi çok hafif olduğundan atmosferli gezegenlerin yüzeyinde büyük miktarlarda bulunması zordur"
       }
     }
     gas = true
@@ -462,6 +572,10 @@ object ILiquids :Load {
       zh_CN {
         this.localizedName = "氯气"
         description = "生物毒性的气体,水系当中往往含有一定量的氯及其盐离子,工业上十分常用的气体"
+      }
+      tr_TR {
+        this.localizedName = "Klor"
+        description = "Biyolojik toksik gaz, su sistemlerinde genellikle belirli miktarda klor ve tuz iyonları bulunur, endüstride yaygın olarak kullanılan gaz"
       }
     }
     gas = true

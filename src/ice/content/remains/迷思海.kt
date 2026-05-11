@@ -44,6 +44,10 @@ class 迷思海 :Remains("remains_mystic_sea") {
         this.localizedName ="迷思海"
         description="你可悲的一部分正期望着回到你的身上"
       }
+      tr_TR {
+        this.localizedName ="Mistik Deniz"
+        description="Acınası bir parçan senin üzerine geri dönmek istiyor"
+      }
     }
     remainsColor = IceColor.r2
 

@@ -65,6 +65,10 @@ object IStatus :Load {
         localizedName = "封冻"
         description = "超低温将快速脆化装甲直至开裂,而后渗透的寒气会对内部结构造成打击"
       }
+      tr_TR {
+        localizedName = "Donma"
+        description = "Aşırı düşük sıcaklık, zırhı hızla çatlatana kadar kırılgan hale getirir, ardından sızan soğuk hava dahili yapılara zarar verir"
+      }
     }
     setUpdate { unit, e ->
       val f = max(1f - (e.time / 600f), 0f)
@@ -104,6 +108,10 @@ object IStatus :Load {
         localizedName = "集群"
         description = "激活协同协议,单位间建立纳米机器人共享网络,效应随范围内友方单位数量增强"
       }
+      tr_TR {
+        localizedName = "Küme"
+        description = "Koordinasyon protokolü aktif, birimler arasında nano-bot paylaşım ağı kurulur, etki dost birim sayısına göre güçlenir"
+      }
     }
   }
   val 圣火 = IceStatusEffect("holyFlame") {
@@ -113,6 +121,10 @@ object IStatus :Load {
         localizedName = "圣火"
         description = "持续造成目标最大生命值百分比的火焰伤害"
       }
+      tr_TR {
+        localizedName = "Kutsal Ateş"
+        description = "Hedefin maksimum can değerinin yüzdesine göre sürekli ateş hasarı verir"
+      }
     }
   }
   val 邪火 = IceStatusEffect("evilFlame") {
@@ -121,6 +133,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "邪火"
         description = "持续侵蚀生命,扣除单位生命上限"
+      }
+      tr_TR {
+        localizedName = "Şeytani Ateş"
+        description = "Sürekli olarak canı aşındırır, birimin can sınırını azaltır"
       }
     }
   }
@@ -133,6 +149,10 @@ object IStatus :Load {
         localizedName = "破甲I"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
       }
+      tr_TR {
+        localizedName = "Zırh Kırıcı I"
+        description = "Hedef birimin zırhını çıkarır, alınan hasarı önemli ölçüde artırır"
+      }
     }
   }
   val 破甲II = IceStatusEffect("armorBreakII") {
@@ -142,6 +162,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "破甲II"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
+      }
+      tr_TR {
+        localizedName = "Zırh Kırıcı II"
+        description = "Hedef birimin zırhını çıkarır, alınan hasarı önemli ölçüde artırır"
       }
     }
   }
@@ -153,6 +177,10 @@ object IStatus :Load {
         localizedName = "破甲III"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
       }
+      tr_TR {
+        localizedName = "Zırh Kırıcı III"
+        description = "Hedef birimin zırhını çıkarır, alınan hasarı önemli ölçüde artırır"
+      }
     }
   }
   val 破甲IV = IceStatusEffect("armorBreakIV") {
@@ -162,6 +190,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "破甲IV"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
+      }
+      tr_TR {
+        localizedName = "Zırh Kırıcı IV"
+        description = "Hedef birimin zırhını çıkarır, alınan hasarı önemli ölçüde artırır"
       }
     }
   }
@@ -173,6 +205,10 @@ object IStatus :Load {
         localizedName = "穿甲"
         description = "完全无视目标护甲,直接穿透对本体造成伤害"
       }
+      tr_TR {
+        localizedName = "Zırh Delici"
+        description = "Hedef zırhını tamamen görmezden gelir, doğrudan gövdeye hasar verir"
+      }
     }
   }
   val 电磁脉冲 = IceStatusEffect("electromagneticPulse") {
@@ -182,6 +218,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "电磁脉冲"
         description = "突发宽带电磁辐射的高强度脉冲,用于破坏敌人的电子设备"
+      }
+      tr_TR {
+        localizedName = "Elektromanyetik Darbe"
+        description = "Düşmanın elektronik ekipmanlarını bozmak için kullanılan yoğun geniş bant elektromanyetik radyasyon pulsı"
       }
     }
   }
@@ -208,6 +248,10 @@ object IStatus :Load {
         localizedName = "辐射"
         description = "经过一次能级降低的辐射,依旧能干扰精密电路并对其造成相当程度的损伤"
       }
+      tr_TR {
+        localizedName = "Radyasyon"
+        description = "Enerji seviyesi düşürülmüş radyasyon, hassas devreleri bozar ve önemli hasara neden olur"
+      }
     }
   }
   val 染血 = IceStatusEffect("stainedBlood") {
@@ -217,6 +261,10 @@ object IStatus :Load {
         localizedName = "染血"
         description = "染血"
       }
+      tr_TR {
+        localizedName = "Kan Lekesi"
+        description = "Kan lekeli"
+      }
     }
   }
   val 憎恨 = IceStatusEffect("hatred") {
@@ -224,6 +272,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "憎恨"
         description = "憎恨"
+      }
+      tr_TR {
+        localizedName = "Nefret"
+        description = "Nefret"
       }
     }
   }
@@ -233,6 +285,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "流血"
         description = "流血"
+      }
+      tr_TR {
+        localizedName = "Kanama"
+        description = "Kanama"
       }
     }
     setUpdate { u, s ->
@@ -251,6 +307,10 @@ object IStatus :Load {
         localizedName = "回响"
         description = ""
       }
+      tr_TR {
+        localizedName = "Yankı"
+        description = ""
+      }
     }
   }
   val 搏动 = IceStatusEffect("throb") {
@@ -262,6 +322,10 @@ object IStatus :Load {
         localizedName = "搏动"
         description = "畸变在血管中蔓延,欢愉在骨髓中滋长,血肉在律动中苏醒"
       }
+      tr_TR {
+        localizedName = "Çarpıntı"
+        description = "Dengesizlik damarlarda yayılır, zevk kemik iliğinde büyür, et ve kan ritimde uyanır"
+      }
     }
   }
   val 寄生 = IceStatusEffect("parasitism") {
@@ -272,6 +336,10 @@ object IStatus :Load {
         localizedName = "寄生"
         description = "异种的胚胎在脏器间扎根,血肉在无声中溃烂,骨骼在无序里软化,直到我们新增一员"
       }
+      tr_TR {
+        localizedName = "Parazit"
+        description = "Yabancı embriyolar organlara yerleşir, et sessizce çürür, kemikler düzensizce yumuşar ta ki yeni biri eklenene kadar"
+      }
     }
   }
   val 融合 = IceStatusEffect("merge") {
@@ -280,6 +348,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "融合"
         description = "生物的界限在混沌中消融,纠缠,渗透,重组,褪去残存的躯壳,将我们的力量合为一体"
+      }
+      tr_TR {
+        localizedName = "Birleşme"
+        description = "Biyolojik sınırlar kaosta erir, dolaşır, sızar, yeniden düzenlenir, artık kalan kabukları atar, güçlerimizi birleştirir"
       }
     }
   }
@@ -290,6 +362,10 @@ object IStatus :Load {
         localizedName = "维生I"
         description = "激活纳米机器人集群,将储存的硅矿微粒与裂解液转化为生物修复单元,持续重构受损机体"
       }
+      tr_TR {
+        localizedName = "Hayati Onarım I"
+        description = "Nano-bot kümesi aktive, depolanan silisyum parçacıkları ve parçalama sıvısını biyolojik onarım ünitelerine dönüştürür"
+      }
     }
   }
   val 维生II = IceStatusEffect("vitalFixII") {
@@ -298,6 +374,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "维生II"
         description = "激活纳米机器人集群,将储存的硅矿微粒与裂解液转化为生物修复单元,持续重构受损机体"
+      }
+      tr_TR {
+        localizedName = "Hayati Onarım II"
+        description = "Nano-bot kümesi aktive, depolanan silisyum parçacıkları ve parçalama sıvısını biyolojik onarım ünitelerine dönüştürür"
       }
     }
   }
@@ -335,6 +415,11 @@ object IStatus :Load {
         description = "脉冲"
         details = " E!M!P!"
       }
+      tr_TR {
+        localizedName = "Darbe"
+        description = "EMP!"
+        details = " E!M!P!"
+      }
     }
   }
   val 鼓舞 = IceStatusEffect("inspires") {
@@ -353,6 +438,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "鼓舞"
         description = "为周围友军持续提供(具有鼓舞的单位)20%的属性倍率,且每秒回复相当于(具有鼓舞的单位)0.1%生命上限的生命值"
+      }
+      tr_TR {
+        localizedName = "İlham"
+        description = "Çevredeki dost birliklere sürekli olarak ilham veren birimin %20 özellik çarpanını sağlar ve saniyede %0.1 can sınırını iyileştirir"
       }
     }
     effectChance = 0.05f
@@ -411,6 +500,11 @@ object IStatus :Load {
         description = "过载动力炉并重导向其能量配给以进行主炮开火或特殊行动,期间过量的能量可能损坏管路"
         details = "以此为信"
       }
+      tr_TR {
+        localizedName = "Aşırı Isınma"
+        description = "Aşırı yüklenmiş güç fırını enerji dağılımını yeniden yönlendirerek ana silah atışı veya özel hareket yapar, bu sırada aşırı enerji borulara zarar verebilir"
+        details = "Bunu bir işaret olarak"
+      }
     }
     disarm = true
     dragMultiplier = 1f
@@ -433,6 +527,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "屠戮"
         description = "屠戮"
+      }
+      tr_TR {
+        localizedName = "Katliam"
+        description = "Katliam"
       }
     }
     damageMultiplier = 1.5f
@@ -459,6 +557,10 @@ object IStatus :Load {
         localizedName = "损毁"
         description = "损毁"
       }
+      tr_TR {
+        localizedName = "Tahrip"
+        description = "Tahrip"
+      }
     }
     healthMultiplier = 0.77f
     speedMultiplier = 0.85f
@@ -481,6 +583,10 @@ object IStatus :Load {
         localizedName = "迅疗"
         description = "释放纳米机器人极速修复机体"
       }
+      tr_TR {
+        localizedName = "Hızlı İyileşme"
+        description = "Nano-botları serbest bırakarak organizmayı hızla onarır"
+      }
     }
     healthMultiplier = 1.2f
     speedMultiplier = 1.05f
@@ -501,6 +607,10 @@ object IStatus :Load {
         localizedName = "熔融"
         description = "利用超高温的金属射流摧毁敌方单位的装甲及内部结构"
       }
+      tr_TR {
+        localizedName = "Ergime"
+        description = "Ultra yüksek sıcaklıktaki metal jeti ile düşman biriminin zırhını ve iç yapısını yok eder"
+      }
     }
     healthMultiplier = 0.8f
     speedMultiplier = 0.9f
@@ -513,6 +623,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "衰变"
         description = "使原子迅速衰变,n被附着的单位会转变为放射源,持续辐射周围的一切事物"
+      }
+      tr_TR {
+        localizedName = "Bozunma"
+        description = "Atomları hızla bozunmaya uğratır, yapışan birim radyoaktif kaynağa dönüşür, çevresindeki her şeyi sürekli olarak ışınlar"
       }
     }
     reloadMultiplier = 0.8f
@@ -564,12 +678,20 @@ object IStatus :Load {
         localizedName = "蚀骨"
         description = "烈焰如附骨之疽,除之不尽"
       }
+      tr_TR {
+        localizedName = "Kemik Çürümesi"
+        description = "Alevler kemiğe yapışan bir yara gibi, yok edilemez"
+      }
     }
   }
   val 突袭 = IceStatusEffect("pounces") {
     localization {
       zh_CN {
         localizedName = "突袭"
+        description = ""
+      }
+      tr_TR {
+        localizedName = "Saldırı"
         description = ""
       }
     }
@@ -618,6 +740,11 @@ object IStatus :Load {
         description = "打散目标的分子结构并干扰原子链,进而液化装甲与软组织"
         details = "污秽涌动,侵蚀不息"
       }
+      tr_TR {
+        localizedName = "Pis Aşınma"
+        description = "Hedefin moleküler yapısını dağıtır ve atom zincirini bozar, zırhı ve yumuşak dokuları sıvılaştırır"
+        details = "Pislik kabarcıklanır, aşınma durmaz"
+      }
     }
     damage = 5f
     effectChance = 0.2f
@@ -646,6 +773,10 @@ object IStatus :Load {
         localizedName = "湍能"
         description = "利用剧烈反应的能量破坏表层装甲稳定性,而后侵蚀内部结构"
       }
+      tr_TR {
+        localizedName = "Türbülanslı Enerji"
+        description = "Şiddetli reaksiyon enerjisini kullanarak yüzey zırh stabilitesini bozar, ardından iç yapıyı aşındırır"
+      }
     }
     healthMultiplier = 0.9f
     color = Color.valueOf("A9D8FF")
@@ -668,6 +799,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "日耀"
         description = "将太阳之力汇于指尖"
+      }
+      tr_TR {
+        localizedName = "Güneş Parlaması"
+        description = "Güneş gücünü parmak uçlarında toplar"
       }
     }
     effect = ParticleEffect().apply {
@@ -694,6 +829,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "电链"
         description = "闪电,会连击两次"
+      }
+      tr_TR {
+        localizedName = "Elektrik Zinciri"
+        description = "Şimşek, iki kez ardışık vurur"
       }
     }
     val range = 8 * 30f
@@ -758,6 +897,10 @@ object IStatus :Load {
         localizedName = "坍缩"
         description = ""
       }
+      tr_TR {
+        localizedName = "Çöküş"
+        description = ""
+      }
     }
   }
   val 幻像 = IceStatusEffect("illusion") {
@@ -765,6 +908,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "幻像"
         description = "通过全相投影装置,将光线转化为可以承受一定程度打击的固体形态,创造出作战单位的三维复制体"
+      }
+      tr_TR {
+        localizedName = "İllüzyon"
+        description = "Tam spektrumlu projektör cihazıyla ışığı belirli bir miktar hasara dayanabilen katı forma dönüştürür, savaş biriminin 3D kopyasını oluşturur"
       }
     }
     damageMultiplier = 0f
@@ -785,6 +932,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "狂乱"
         description = "混乱与疯狂"
+      }
+      tr_TR {
+        localizedName = "Delilik"
+        description = "Kaos ve çılgınlık"
       }
     }
   }
@@ -807,6 +958,10 @@ object IStatus :Load {
         localizedName = "坚忍"
         description = ""
       }
+      tr_TR {
+        localizedName = "Sebat"
+        description = ""
+      }
     }
   }
   val 庇护 = IceStatusEffect("asylum") {
@@ -814,6 +969,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "庇护"
         description = "为单位填充一层动能泡沫内衬,内衬在伸缩之间将大量分散装甲承受的猛烈冲击"
+      }
+      tr_TR {
+        localizedName = "Sığınak"
+        description = "Birimin etrafına bir kinetik köpük astarı yerleştirir, bu astar sürekli açılıp kapanarak aldığı şiddetli darbeyi dağıtır"
       }
     }
     reloadMultiplier = 1.1f
@@ -855,6 +1014,10 @@ object IStatus :Load {
         localizedName = "复仇"
         description = ""
       }
+      tr_TR {
+        localizedName = "İntikam"
+        description = ""
+      }
     }
     damageMultiplier = 1.8f
     healthMultiplier = 0.8f
@@ -879,6 +1042,10 @@ object IStatus :Load {
         localizedName = "反扑"
         description = "每损失1%生命值获得1.5%各项属性值"
       }
+      tr_TR {
+        localizedName = "Karşı Saldırı"
+        description = "Her %1 can kaybı için %1.5 tüm özellik değeri kazanır"
+      }
     }
     color = Color.valueOf("FB7A83")
     effectChance = 0.01f
@@ -895,6 +1062,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "作弊"
         description = "没关就是开了?"
+      }
+      tr_TR {
+        localizedName = "Hile"
+        description = "Kapalı değilse açıktır?"
       }
     }
     damageMultiplier = 99e9f
@@ -920,6 +1091,10 @@ object IStatus :Load {
     localization {
       zh_CN {
         localizedName = "斩杀"
+        description = ""
+      }
+      tr_TR {
+        localizedName = "İdam"
         description = ""
       }
     }
@@ -955,6 +1130,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "结晶化"
         description = "FEX物质在单位表面富集结晶产生不稳定的晶体壳,使单位会与活性的FEX结晶相互作用,同时在受到攻击时会造成额外的衍生伤害"
+      }
+      tr_TR {
+        localizedName = "Kristalleşme"
+        description = "FEX maddesi birim yüzeyinde birikip kristalleşerek kararsız bir kristal kabuk oluşturur, birim aktif FEX kristalleriyle etkileşir ve saldırıya uğradığında ek hasar verir"
       }
     }
     speedMultiplier = 0.34f
@@ -1017,6 +1196,10 @@ object IStatus :Load {
         localizedName = "暮春"
         description = "受力场控制的纳米机器人会干扰单位的行动,破坏其设施"
       }
+      tr_TR {
+        localizedName = "Geç Bahar"
+        description = "Kuvvet alanı tarafından kontrol edilen nano-botlar birimin hareketini engeller ve tesislerini yok eder"
+      }
     }
     color = Tmp.c1.set(Pal.heal).lerp(Color.black, 0.25f).cpy()
     speedMultiplier = 0.3f
@@ -1029,6 +1212,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "临春"
         description = "纳米机器人矩阵会在力场的引导下为单位提供增益"
+      }
+      tr_TR {
+        localizedName = "Bahar Yaklaşıyor"
+        description = "Nano-bot matrisi kuvvet alanının rehberliğinde birime güçlendirme sağlar"
       }
     }
     color = Pal.heal
@@ -1044,6 +1231,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "锁定"
         description = "单位受到的攻击有概率造成更高的伤害,这取决于锁定的强度"
+      }
+      tr_TR {
+        localizedName = "Kilitlenme"
+        description = "Birimin aldığı saldırılar kilitlenme gücüne bağlı olarak daha yüksek hasar verebilir"
       }
     }
     color = Pal.remove
@@ -1095,6 +1286,10 @@ object IStatus :Load {
         localizedName = "冻结"
         description = "在极低的温度下,单位的系统将很难正常工作,在寒气完全渗透到单位的核心后,它将被冻成一个巨大的冰块"
       }
+      tr_TR {
+        localizedName = "Dondurma"
+        description = "Aşırı düşük sıcaklıklarda birimin sistemleri düzgün çalışmakta zorlanır, soğuk hava birimin çekirdeğine tamamen nüfuz ettiğinde dev bir buz kütlesi haline dondurulur"
+      }
     }
     color = SglDrawConst.frost
     speedMultiplier = 0.5f
@@ -1139,6 +1334,10 @@ object IStatus :Load {
       zh_CN {
         localizedName = "凛冻"
         description = "单位被寒气被彻底冰封,无法行动,如果寒气继续加深,在冰块碎裂时,它会彻底碎成一堆粉末"
+      }
+      tr_TR {
+        localizedName = "Şiddetli Donma"
+        description = "Birim soğuk hava tarafından tamamen dondurulur, hareket edemez, soğuk hava daha da derinleşirse buz parçalandığında toz haline parçalanır"
       }
     }
     speedMultiplier = 0f
