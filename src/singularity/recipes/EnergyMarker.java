@@ -17,7 +17,7 @@ public class EnergyMarker extends SingleItemMark {
   @NotNull
   @Override
   public String getLocalizedName() {
-    return "中子能";
+    return "Nötron Enerjisi";
   }
 
   @NotNull

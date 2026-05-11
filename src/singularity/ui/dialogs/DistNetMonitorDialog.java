@@ -176,7 +176,7 @@ public class DistNetMonitorDialog extends BaseDialog{
     }
 
 
-    button("关闭",()->{hide();});
+    button("Kapat",()->{hide();});
   }
 
   public void show(DistributeNetwork distNetwork){

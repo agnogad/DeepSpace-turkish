@@ -107,9 +107,9 @@ public class NormalCrafterParser extends RecipeParser<NormalCrafter> {
     for (ObjectMap.Entry<BaseConsumers, BaseProducers> product : normalCrafter.getOptionalProducts()) {
       Recipe recipe = new Recipe(RecipeType.factory, getWrap(normalCrafter), product.key.getCraftTime());
       recipe.setSubInfo(t -> {
-        t.add(Core.bundle.get("[accent]附加的次要生产项"));
+        t.add("[accent]Ek Ikincil Uretim Ogeleri");
         if (!product.key.getOptionalAlwaysValid())
-          t.row().add(Core.bundle.get("[lightgray]需主要的生产处于工作状态")).padTop(4);
+          t.row().add("[lightgray]Ana uretim calisir durumda olmali").padTop(4);
       });
 
       for (BaseProduce<?> produce : product.value.all()) {

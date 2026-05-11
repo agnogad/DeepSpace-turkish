@@ -500,7 +500,7 @@ public class SglTechTreeDialog extends Table {
             }
           }, info -> {
             if (isReveal) info.add(project.getLocalizedName()).growX().labelAlign(Align.left);
-            else info.add("未揭示").growX().labelAlign(Align.left);
+            else info.add("Acilmamis").growX().labelAlign(Align.left);
 
             info.row();
             info.image().color(Color.darkGray).height(3f).growX().pad(0).padTop(6f).padBottom(6f);

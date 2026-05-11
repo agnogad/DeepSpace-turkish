@@ -8,9 +8,9 @@ import universecore.util.handler.FieldHandler;
 
 public class SglStat{
   public static final Stat
-      componentBelongs = create("componentBelongs", IceStatCats.INSTANCE.get结构()),
-      maxChildrenNodes = create("maxChildrenNodes", IceStatCats.INSTANCE.get结构()),
-      linkDirections = create("linkDirections", IceStatCats.INSTANCE.get结构()),
+      componentBelongs = create("componentBelongs", IceStatCats.INSTANCE.getStructure()),
+      maxChildrenNodes = create("maxChildrenNodes", IceStatCats.INSTANCE.getStructure()),
+      linkDirections = create("linkDirections", IceStatCats.INSTANCE.getStructure()),
 
       energyCapacity = create("energyCapacity", IceStatCats.INSTANCE.getNeutron()),
       energyResident = create("energyResident", IceStatCats.INSTANCE.getNeutron()),
