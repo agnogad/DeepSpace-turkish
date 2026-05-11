@@ -105,7 +105,7 @@ sourceSets {
   main {
     java.setSrcDirs(listOf("src"))
     kotlin.setSrcDirs(listOf("src"))
-    resources.setSrcDirs(listOf("assets"), listOf("assets/bundles"))
+    resources.setSrcDirs(listOf("assets", "assets/bundles"))
   }
   kotlin {
     jvmToolchain(java)
