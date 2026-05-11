@@ -35,7 +35,12 @@ object LocalizationManager :Load {
   }
 
   private fun parsing(target: Any, map: LocalizationMap) {
-    val data = map.getData(Core.settings.getString("locale", "zh_CN")) ?: map.getData("zh_CN")
+    val userLocale = Core.settings.getString("locale", "zh_CN")
+    val data = map.getData(userLocale) 
+      ?: when(userLocale) {
+        "tr_TR" -> map.getData("en") ?: map.getData("zh_CN")
+        else -> map.getData("en") ?: map.getData("zh_CN")
+      }
     data?.let {
       findParser(target::class.java)?.invoke(target, it)
     }
