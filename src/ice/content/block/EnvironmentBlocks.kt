@@ -773,8 +773,6 @@ object EnvironmentBlocks :Load {
       }
     }
   }
-    }
-  }
   val 钢铁墙2 = StaticWall("steelFloorWall2").apply {
     localization {
       zh_CN {
@@ -783,8 +781,6 @@ object EnvironmentBlocks :Load {
       tr_TR {
         this.localizedName = "Çelik Duvar 2"
       }
-    }
-  }
     }
   }
   val 精钢甲板 = Floor("steelFloor3").apply {
