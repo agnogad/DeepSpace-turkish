@@ -244,7 +244,7 @@ object DeBugFragment {
             get().setText(if (add) "添加" else "删除")
           }
         }.growX().height(45f)
-        t.add("物品数量: ")
+        t.add(Core.bundle.get("debug.itemCount"))
         t.add(TextField("1000").apply {
           messageText = "1000"
           update { size = text }

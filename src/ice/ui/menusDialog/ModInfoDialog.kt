@@ -147,7 +147,7 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
           t3.defaults().pad(3f)
 
           t3.table { ta ->
-            ta.add("模组的部分内容融合自以下已停更的模组").color(Pal.accent)
+            ta.add(Core.bundle.get("dialog.modInfo.creditsFrom")).color(Pal.accent)
           }.row()
           t3.table { ta ->
             ta.table { t1 ->
@@ -158,7 +158,7 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
               t1.table { it.add("Singularity").color(Pal.accent) }.growX().row()
 
               t1.table {
-                it.add("作者:").expand().left().color(Pal.accent)
+                it.add("${Core.bundle.get("dialog.modInfo.author")}:").expand().left().color(Pal.accent)
                 it.add("EBwilson").expand().right().color(Pal.accent)
               }.growX().row()
 
@@ -173,14 +173,14 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
               t1.table { it.add("CurseOfFlesh").color(Pal.accent) }.growX().row()
 
               t1.table {
-                it.add("作者:").expand().left().color(Pal.accent)
+                it.add("${Core.bundle.get("dialog.modInfo.author")}:").expand().left().color(Pal.accent)
                 it.add("帕奇维克").expand().right().color(Pal.accent)
               }.growX().row()
             }
 
           }.growX().row()
           t3.table { ta ->
-            ta.add("所有内容均已获得授权,感谢各mod作者的帮助").color(Pal.accent)
+            ta.add(Core.bundle.get("dialog.modInfo.creditsThanks")).color(Pal.accent)
           }.row()
 
         }.margin(10f).growX()
@@ -193,7 +193,7 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
           table.defaults().pad(8f)
           table.table(Tex.underline) { t ->
             t.left().defaults().left().fill()
-            t.add("在此,特别谢鸣为mod开发过程提供了不可或缺的帮助的开发者和贡献者").color(Pal.accent)
+            t.add(Core.bundle.get("dialog.contributors.special")).color(Pal.accent)
           }.growX().row()
 
           val radst = Array(ContributorTable.contributors.size) {

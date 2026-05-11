@@ -29,24 +29,11 @@ import singularity.graphic.SglDrawConst
 import singularity.ui.SglStyles
 
 object SponsoredDialog : BaseMenusDialog(IceStats.捐赠.localized(), IStyles.menusButton_contribute) {
-  private val hint = Seq<String>().apply {
-    add("你就快要成功了是吗?")
-    add("干嘛这么看着我?")
-    add("你又是为何来到这里?")
-    add("情况还真是急转直下啊")
-    add("你戳够了没?!")
-    add("你知道alon和Alon的区别吗")
-    add("有点受宠若惊了")
-    add("好烦,想说又觉得没必要,还是不听算了")
-    add("SoundControl是一坨大的")
-    add("学学学写写写")
-    add("我说unk牛逼,尼尔多龙马?")
-    add("难道你是衣钵继承者")
-    add("那cyber io也给你")
-    add("修了")
-    add("能跑起来吗?")
-    add("还有bug吗?")
-    add("你们倒是说话啊>:(")
+  private val hintKeys = Array(17) { "dialog.sponsored.hint.$it" }
+
+  private fun getHint(exclude: String = ""): String {
+    val key = hintKeys.filter { Core.bundle.get(it) != it && Core.bundle.get(it) != exclude }.randomOrNull() ?: ""
+    return Core.bundle.get(key)
   }
 
   init {
@@ -67,7 +54,7 @@ object SponsoredDialog : BaseMenusDialog(IceStats.捐赠.localized(), IStyles.me
         it.image(SglDrawConst.sgl2).size(365f).scaling(Scaling.fit)
 
         val characters = Characters.alon
-        val fLabel = FLabel(hint.random()).also { label -> label.setColor(IceColor.b4) }
+        val fLabel = FLabel(getHint()).also { label -> label.setColor(IceColor.b4) }
         val image = Image(characters.gal.asDrawable(), Scaling.fit)
         image.apply {
           addListener(Tooltip { tool ->
@@ -83,7 +70,7 @@ object SponsoredDialog : BaseMenusDialog(IceStats.捐赠.localized(), IStyles.me
             characters.upfate(this) { fLabel.actions.isEmpty }
           }
           tapped {
-            fLabel.restart(hint.random(fLabel.text.toString()))
+            fLabel.restart(getHint(fLabel.text.toString()))
           }
           val scl = 2f
           setSize(52f * scl, 72f * scl)
@@ -104,7 +91,7 @@ object SponsoredDialog : BaseMenusDialog(IceStats.捐赠.localized(), IStyles.me
       buildButton(p, Icon.none, Pal.lancerLaser, IceStats.Patreon.localized(), IceStats.支持patreon.localized()) {}.padBottom(10f).row()
 
 
-      p.addLine("亲爱的赞助者").padBottom(20f)
+      p.addLine(Core.bundle.get("dialog.sponsored.dearSponsors")).padBottom(20f)
       p.iTable { itable ->
 
         itable.table(SglDrawConst.grayUIAlpha) { table ->
