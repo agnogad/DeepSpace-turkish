@@ -88,7 +88,7 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
       ta.top()
       ta.image(IStyles.tanksui).height(200f).pad(10f).row()
 
-      ta.addLine("模组信息").padBottom(20f)
+      ta.addLine(Core.bundle.get("modInfo.modInfo")).padBottom(20f)
 
       ta.table(SglDrawConst.grayUIAlpha) { t3 ->
         t3.table { t2 ->
@@ -187,7 +187,7 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
       }.padBottom(20f).row()
 
 
-      ta.addLine("亲爱贡献者").padBottom(20f)
+      ta.addLine(Core.bundle.get("modInfo.dearContributors")).padBottom(20f)
       ta.table {
         it.table(SglDrawConst.grayUIAlpha) { table ->
           table.defaults().pad(8f)
@@ -225,14 +225,14 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
         }.grow().margin(8f).row()
       }.padBottom(20f).row()
 
-      ta.addLine("特别感谢").padBottom(20f)
+      ta.addLine(Core.bundle.get("modInfo.specialThanks")).padBottom(20f)
       ta.iTable { itable ->
 
         itable.table(SglDrawConst.grayUIAlpha) { table ->
           table.defaults().pad(8f)
           table.table(Tex.underline) { t ->
             t.left().defaults().left().fill()
-            t.addCR("感谢所有为DeepSpace mod项目开发提供了帮助的贡献者")
+            t.addCR(Core.bundle.get("modInfo.thanksAllContributors"))
           }.growX().row()
 
           table.iTable { cons ->
@@ -248,23 +248,23 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
             }
           }
           table.row()
-          table.left().addCR("最后,感谢所有游玩本mod的玩家,我们的工作最后得到的承认就是最大的鼓励,再一次,感谢您的游玩!").fill().left()
+          table.left().addCR(Core.bundle.get("modInfo.finalThanks")).fill().left()
         }.grow().margin(8f).row()
 
       }.padBottom(20f).row()
 
-      ta.addLine("相关链接")
+      ta.addLine(Core.bundle.get("modInfo.relatedLinks"))
       ta.table {
-        SponsoredDialog.buildButton(it, Icon.githubSquare, IceColor.b4, "Github项目", "mod的开源地址") {
+        SponsoredDialog.buildButton(it, Icon.githubSquare, IceColor.b4, Core.bundle.get("misc.github"), Core.bundle.get("infos.openAddress")) {
           openUrl(DeepSpace.githubProjectUrl)
         }.growX().row()
         SponsoredDialog.buildButton(it, SglDrawConst.qqIcon, Pal.lightishGray, Core.bundle.get("misc.qq"), Core.bundle.get("infos.qq")) {
           openUrl(DeepSpace.qqGropsUrl)
         }.growX().row()
-        SponsoredDialog.buildButton(it, Icon.discord, Pal.lightOrange, "Discord论坛", "DeepSpace的discord聊天室") {
+        SponsoredDialog.buildButton(it, Icon.discord, Pal.lightOrange, Core.bundle.get("modInfo.discordForum"), Core.bundle.get("infos.discord")) {
 
         }.growX().row()
-        SponsoredDialog.buildButton(it, SglDrawConst.telegramIcon, Color.valueOf("7289da"), "Telegram页面", "Telegram上的本mod群组") {}
+        SponsoredDialog.buildButton(it, SglDrawConst.telegramIcon, Color.valueOf("7289da"), Core.bundle.get("misc.telegram"), Core.bundle.get("infos.telegram")) {}
           .growX().row()
       }.growX()
 
@@ -402,11 +402,11 @@ object ModInfoDialog : BaseMenusDialog(IceStats.模组.localized(), IStyles.menu
   }
 
   private enum class Work(val des: String) {
-    artist_icon_work("贴图/美术"),
-    translate_icon_work("翻译/本地化"),
-    sounds_icon_work("音乐/音效"),
-    copywriting_icon_work("文案/策划"),
-    program_icon_work("程序/调试");
+    artist_icon_work(Core.bundle.get("work.artist")),
+    translate_icon_work(Core.bundle.get("work.translate")),
+    sounds_icon_work(Core.bundle.get("work.sounds")),
+    copywriting_icon_work(Core.bundle.get("work.copywriting")),
+    program_icon_work(Core.bundle.get("work.program"));
 
     fun icon(): Drawable = Singularity.getModDrawable(name)
   }

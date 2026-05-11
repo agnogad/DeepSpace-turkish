@@ -320,13 +320,13 @@ open class SglTurret(name: String) :SglBlock(name) {
       }
     }
     addBar("shotStack") { e: SglTurretBuild ->
-      Bar({ "弹药栈: ${e.shotStack}" }, { Pal.ammo }) {
+      Bar({ Core.bundle.format("bar.ammoStack", e.shotStack) }, { Pal.ammo }) {
         (e.currentAmmo?.reloadAmount?.let { e.shotStack.toFloat() / it } ?: 0f)
       }
     }
     addBar("reloadCounter") { e: SglTurretBuild ->
       val f = { e.consumer.current?.craftTime?.let { e.reloadCounter / it } ?: 0f }
-      Bar({ "装填: ${(f.invoke() * 100f).toInt()}%" }, { Pal.ammo }, { f.invoke() })
+      Bar({ Core.bundle.format("bar.reloadPercent", (f.invoke() * 100f).toInt()) }, { Pal.ammo }, { f.invoke() })
     }
   }
 

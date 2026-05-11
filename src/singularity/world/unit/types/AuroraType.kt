@@ -53,6 +53,10 @@ class AuroraType : AirSeaAmphibiousUnit("aurora") {
         localizedName ="极光"
         description="搭载光束引擎的战列旗舰,将引擎功率最大程度内化,其装载的两门'光锥'主炮能够贯穿任何强互作用材料之外的装甲,给敌人以毁灭性的打击"
       }
+      tr_TR {
+        localizedName = "Aurora"
+        description = "Işın motorlu savaş gemisi. Motor gücünü maksimuma çıkaran 'Işık Konisi' ana topları, güçlü etkileşim malzemeleri dışındaki tüm zırhları delebilir"
+      }
     }
     armor = 10f
     speed = 0.65f

@@ -21,6 +21,10 @@ class LiquidBlocks {
           localizedName = "集束导管"
           description = "内置了四条管道的装甲导管，需要导管铆来分束管道"
         }
+        tr_TR {
+          localizedName = "Küme Boru"
+          description = "Dört kanallı zırhlı boru. Kanalları ayırmak için boru perçini gerekir"
+        }
       }
       requirements(Category.liquid, ItemStack.with(Items.titanium, 8, IItems.气凝胶, 10, IItems.铝锭, 10))
       liquidCapacity = 10f
@@ -33,6 +37,10 @@ class LiquidBlocks {
           zh_CN {
             localizedName = "导管铆"
             description = "用于分束以及接入集束导管道，为每一条子管道提供侧向输入/输出配置功能"
+          }
+          tr_TR {
+            localizedName = "Boru Perçini"
+            description = "Küme borularını ayırmak ve bağlamak için kullanılır, her bir alt kanal için yanal giriş/çıkış yapılandırması sağlar"
           }
         }
         requirements(Category.liquid, ItemStack.with(Items.plastanium, 18, IItems.气凝胶, 10, IItems.铝锭, 16))
@@ -49,6 +57,10 @@ class LiquidBlocks {
           zh_CN {
             localizedName = "流体过滤阀"
             description = "用于按流体类型分流液体，每一条子管道可独立配置液体类型与侧向输入/输出模式"
+          }
+          tr_TR {
+            localizedName = "Sıvı Filtre Valfi"
+            description = "Sıvı türüne göre akışkanları ayırır. Her alt kanal bağımsız olarak sıvı türü ve yanal giriş/çıkış modu yapılandırabilir"
           }
         }
         requirements(Category.liquid, ItemStack.with(Items.titanium, 10, IItems.气凝胶, 15, Items.graphite, 12))

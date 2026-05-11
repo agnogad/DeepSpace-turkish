@@ -134,7 +134,7 @@ open class BaseDrill(name: String) : SglBlock(name) {
         val width = if (stack.item.hardness <= bitHardness)  //可挖掘的矿物显示
           drawPlaceText(Core.bundle.formatFloat("bar.drillspeed", 60f / (drillTime + stack.item.hardness * hardMultiple) * stack.amount, 2), x, y - line, true) else  //不可挖掘的矿物显示
         //需要更高级的钻头
-          drawPlaceText("需要${stack.item.hardness}的钻头(当前${bitHardness}级)", x, y - line, false)
+          drawPlaceText(Core.bundle.format("infos.requireDrillLevel", stack.item.hardness, bitHardness), x, y - line, false)
 
         val dx = x * Vars.tilesize + offset - width / 2f - 4f
         val dy = y * Vars.tilesize + offset + size * Vars.tilesize / 2f + 5 - line * 8f

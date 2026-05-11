@@ -59,6 +59,10 @@ class MornstarType : AirSeaAmphibiousUnit("mornstar") {
         localizedName ="晨星"
         description="搭载光束引擎的巨型护卫舰,载有光棱蜉蝣模块,能够引导光束能量体发动猛烈的攻击,同时它搭载的重型电磁脉冲主炮也能对敌人造成致命的打击"
       }
+      tr_TR {
+        localizedName ="Mornstar"
+        description="Işın motorlu dev muhafız gemisi. Işık prizması modülü ile güçlü saldırılar düzenlerken, ağır elektromanyetik darbe ana topuyla düşmanlara ölümcül darbeler indirir"
+      }
     }
 
     armor = 19f

@@ -62,6 +62,10 @@ class KaguyaType : SglUnitType<SglUnitEntity>("kaguya", SglUnitEntity::class.jav
         localizedName = "辉夜"
         description = "攻击型巨型攻击舰,具有强大的火力和相当灵活的机动性,其武装足以将绝大多数防线夷为平地"
       }
+      tr_TR {
+        localizedName = "Kaguya"
+        description = "Devasa saldırı gemisi. Güçlü ateş gücü ve oldukça esnek manevra kabiliyetiyle çoğu savunma hattını yerle bir edebilir"
+      }
     }
 
     armor = 20f

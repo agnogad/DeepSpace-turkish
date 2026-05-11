@@ -120,7 +120,7 @@ abstract class Inspire {
     override fun init(project: ResearchProject) {
       super.init(project)
 
-      localized = "研究 ${researchProject.localizedName}"
+      localized = Core.bundle.format("infos.researching", researchProject.localizedName)
     }
 
     override fun applyTrigger(project: ResearchProject) {

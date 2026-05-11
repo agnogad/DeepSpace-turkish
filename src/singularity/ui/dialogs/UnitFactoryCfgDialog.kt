@@ -74,7 +74,7 @@ class UnitFactoryCfgDialog : BaseDialog(Core.bundle.get("dialog.unitFactor.title
     var curr: BuildTask? = null
     var pri: Int = 0
     var fold: Boolean = false
-    var makeTask: Dialog = object : BaseDialog("新建任务") {
+    var makeTask: Dialog = object : BaseDialog(Core.bundle.get("dialog.unitFactor.makeTask")) {
         inner class Sorter(val name: String?, val sort: Comparator<UnitType?>, val icon: Prov<Drawable?>)
 
         private val compare: Collator = Collator.getInstance(Core.bundle.getLocale())

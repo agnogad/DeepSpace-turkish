@@ -111,7 +111,7 @@ open class FloorCrafter(name: String) : NormalCrafter(name) {
     }
 
     drawPlaceText(
-      if (hasValidFloorCheck && eff > currentBaseEff && valid) "效率：${(eff * 100f).toInt()}%" else if (valid) "放置点可用" else "放置点不可用",
+      if (hasValidFloorCheck && eff > currentBaseEff && valid) Core.bundle.format("infos.efficiencyPercent", (eff * 100f).toInt()) else if (valid) Core.bundle.get("infos.placeValid") else Core.bundle.get("infos.placeInvalid"),
       x, y + line, valid
     )
 
@@ -167,8 +167,8 @@ open class FloorCrafter(name: String) : NormalCrafter(name) {
 
 
     /*drawPlaceText(
-      if (c == 1 && valid) "效率：${(eff * 100f).toInt()}%"
-      else if (valid) "放置点可用" else "放置点不可用",
+      if (c == 1 && valid) Core.bundle.format("infos.efficiencyPercent", (eff * 100f).toInt())
+      else if (valid) Core.bundle.get("infos.placeValid") else Core.bundle.get("infos.placeInvalid"),
       x, y + line, valid
     )*/
 

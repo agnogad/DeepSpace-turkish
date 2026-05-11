@@ -116,7 +116,7 @@ open class SglBlock(name: String) :IceBlock(name), ConsumerBlockComp {
 
   /**方块是否有过压保护 */
   var energyProtect: Boolean = false
-  var liquidsStr: String = Iconc.liquidWater.toString() + "存储的流体"
+  var liquidsStr: String = Iconc.liquidWater.toString() + " " + Core.bundle.get("misc.storedLiquids")
   var recipeIndfo: String = Core.bundle.get("fragment.buttons.selectPrescripts")
 
   init {

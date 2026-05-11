@@ -102,28 +102,28 @@ object DeBugFragment {
           runnable.run()
         }.height(42f).growX().row()
       }
-      button("游戏模式", Icon.editSmall, ::gmode)
-      button("队伍", Icon.adminSmall, ::team)
-      button("解禁", Icon.cancelSmall, ::allBlock)
-      button("科技", Icon.treeSmall, ::unlock)
-      button("物品", Icon.pasteSmall, ::items)
-      button("清除日志", Icon.fileTextSmall, Vars.ui.consolefrag::clearMessages)
-      button("折跃", Icon.bookOpenSmall) {
+      button(Core.bundle.get("debug.gamemode"), Icon.editSmall, ::gmode)
+      button(Core.bundle.get("debug.team"), Icon.adminSmall, ::team)
+      button(Core.bundle.get("debug.unban"), Icon.cancelSmall, ::allBlock)
+      button(Core.bundle.get("debug.tech"), Icon.treeSmall, ::unlock)
+      button(Core.bundle.get("debug.items"), Icon.pasteSmall, ::items)
+      button(Core.bundle.get("debug.clearLog"), Icon.fileTextSmall, Vars.ui.consolefrag::clearMessages)
+      button(Core.bundle.get("debug.jump"), Icon.bookOpenSmall) {
       }
-      button("剧情", Icon.bookOpenSmall) {
-        ConversationFragment.showText("血肉肿瘤", "耳边萦绕着碎片的尖啸割裂了现实的帷幕")
+      button(Core.bundle.get("debug.story"), Icon.bookOpenSmall) {
+        ConversationFragment.showText(Core.bundle.get("debug.storyTitle"), Core.bundle.get("debug.storyText"))
       }
-      button("清除天气", Icon.bookOpenSmall) {
+      button(Core.bundle.get("debug.clearWeather"), Icon.bookOpenSmall) {
         Groups.weather.clear()
       }
 
-      button("游戏胜利", Icon.bookOpenSmall) {
+      button(Core.bundle.get("debug.win"), Icon.bookOpenSmall) {
         Vars.state.won = true
         Vars.state.rules.winWave
         Vars.state.rules.waves = false
         Vars.state.gameOver = true
       }
-      button("修复损坏", Icon.up) {
+      button(Core.bundle.get("debug.repair"), Icon.up) {
         Vars.world.tiles.forEach { it1 ->
           it1.build?.let { it2 ->
             it2.team = Vars.player.team()
@@ -133,7 +133,7 @@ object DeBugFragment {
       }
 
       val table= Table()
-      table.button("关闭"){
+      table.button(Core.bundle.get("debug.close")){
         table.remove()
       }.row()
       table.field("x"){ it1 ->
@@ -196,7 +196,7 @@ object DeBugFragment {
 
   private fun gmode() {
     cont.iTableG {
-      it.addLine("游戏模式", Color.white)
+      it.addLine(Core.bundle.get("debug.gamemode"), Color.white)
       it.table { ta ->
         Gamemode.entries.forEach { m ->
           ta.button(m.name, Styles.flatBordert) {
@@ -224,7 +224,7 @@ object DeBugFragment {
     var size = ""
     var add = true
     cont.iTableG {
-      it.addLine("物品", Color.white)
+      it.addLine(Core.bundle.get("debug.items"), Color.white)
       it.iTableG { ita ->
         Vars.content.items().forEach { item ->
           addbutton(ita, item) {
@@ -237,11 +237,11 @@ object DeBugFragment {
         }
       }.row()
       it.iTableG { t ->
-        t.button("添加", Styles.flatBordert) {
+        t.button(Core.bundle.get("debug.add"), Styles.flatBordert) {
           add = !add
         }.apply {
           get().update {
-            get().setText(if (add) "添加" else "删除")
+            get().setText(if (add) Core.bundle.get("debug.add") else Core.bundle.get("debug.remove"))
           }
         }.growX().height(45f)
         t.add(Core.bundle.get("debug.itemCount"))
@@ -251,12 +251,12 @@ object DeBugFragment {
         })
       }.row()
       it.iTableG { t ->
-        t.button("添加全部", Styles.flatBordert) {
+        t.button(Core.bundle.get("debug.addAll"), Styles.flatBordert) {
           Vars.content.items().forEach { item ->
             Vars.player.core()?.items?.add(item, 2000)
           }
         }.growX().pad(2f).height(45f).row()
-        t.button("清除全部", Styles.flatBordert) {
+        t.button(Core.bundle.get("debug.clearAll"), Styles.flatBordert) {
           Vars.player.core()?.items?.clear()
         }.growX().pad(2f).height(45f).row()
       }.row()
@@ -267,18 +267,18 @@ object DeBugFragment {
   private fun unlock() {
     cont.iTableG { ta ->
       ta.iTableG {
-        it.button("解锁全部", Styles.flatBordert) {
+        it.button(Core.bundle.get("debug.unlockAll"), Styles.flatBordert) {
           Vars.content.each { cotent ->
             (cotent as? UnlockableContent)?.unlock()
           }
         }.size(160f, 45f)
-        it.button("锁定全部", Styles.flatBordert) {
+        it.button(Core.bundle.get("debug.lockAll"), Styles.flatBordert) {
           Vars.content.each { cotent ->
             (cotent as? UnlockableContent)?.clearUnlock()
           }
         }.size(160f, 45f).row()
       }.row()
-      ta.addLine("科技", Color.white)
+      ta.addLine(Core.bundle.get("debug.tech"), Color.white)
       ta.iTableG {
         Vars.content.each { cotent ->
           if (cotent is UnlockableContent) {
@@ -301,7 +301,7 @@ object DeBugFragment {
       if (it.minfo.mod == DeepSpace.mod) it.buildVisibility = BuildVisibility.shown
     }
     cont.iTableG {
-      it.addLine("解禁方块", Color.white)
+      it.addLine(Core.bundle.get("debug.unbanBlocks"), Color.white)
       it.iTableG { it1 ->
         Vars.content.blocks().forEach { block ->
           if (block is UnlockableContent) {

@@ -37,10 +37,10 @@ object SponsoredDialog : BaseMenusDialog(IceStats.捐赠.localized(), IStyles.me
   }
 
   init {
-    SponsoredTable("一得阁拉米∽", "762214119", 70f).itooltip("感谢Alon以及团队成员在DeepSpace模组上的辛勤付出")
-    SponsoredTable("小笨喵∽", "3881959748", 45f).itooltip("希望大家多赞助赞助作者")
-    SponsoredTable("minphea∽", "3757625379", 30f).itooltip("加入对立神教吧!")
-    SponsoredTable("一无柠檬汁", "3591484752", 2f).itooltip("灌注alon喵")
+    SponsoredTable("一得阁拉米∽", "762214119", 70f).itooltip(Core.bundle.get("sponsored.tip1"))
+    SponsoredTable("小笨喵∽", "3881959748", 45f).itooltip(Core.bundle.get("sponsored.tip2"))
+    SponsoredTable("minphea∽", "3757625379", 30f).itooltip(Core.bundle.get("sponsored.tip3"))
+    SponsoredTable("一无柠檬汁", "3591484752", 2f).itooltip(Core.bundle.get("sponsored.tip4"))
   }
 
   override fun build(cont: Table) {
@@ -98,7 +98,7 @@ object SponsoredDialog : BaseMenusDialog(IceStats.捐赠.localized(), IStyles.me
           table.defaults().pad(8f)
           table.table(Tex.underline) { t ->
             t.left().defaults().left().fill()
-            t.addCR("感谢愿意支持DeepSpace的赞助者们,每一份赞助都是对我们最大的鼓励,我们铭记在心")
+            t.addCR(Core.bundle.get("sponsored.thanks"))
           }.growX().row()
 
           table.iTable { cons ->
