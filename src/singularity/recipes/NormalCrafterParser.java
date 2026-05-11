@@ -107,9 +107,9 @@ public class NormalCrafterParser extends RecipeParser<NormalCrafter> {
     for (ObjectMap.Entry<BaseConsumers, BaseProducers> product : normalCrafter.getOptionalProducts()) {
       Recipe recipe = new Recipe(RecipeType.factory, getWrap(normalCrafter), product.key.getCraftTime());
       recipe.setSubInfo(t -> {
-        t.add("[accent]Ek Ikincil Uretim Ogeleri");
+        t.add(Core.bundle.get("misc.additionalSecondaryProduction"));
         if (!product.key.getOptionalAlwaysValid())
-          t.row().add("[lightgray]Ana uretim calisir durumda olmali").padTop(4);
+          t.row().add(Core.bundle.get("misc.mainProductionMustBeWorking")).padTop(4);
       });
 
       for (BaseProduce<?> produce : product.value.all()) {
