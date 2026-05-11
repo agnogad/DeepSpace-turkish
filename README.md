@@ -1,35 +1,36 @@
-简体中文|[English](README_EN.md)
+# DeepSpace - Türkçe
 
 <div align="center">
     <img src="./assets/spritese/ice/ui/icon/logo.png" alt="logo" width="750"/>
 </div>
 
 ---
+
 # ___DeepSpace___
 <img src="./assets/icon.png" alt = "icon" width = "200"/>
 
-一个 ___多方位内容___ 的 Mindustry __kotlin/java__ 模组.
+___Çok yönlü içerik___ barındıran bir Mindustry __kotlin/java__ modu.
 
-## 我们的理念
-- 从星球到建筑,摒弃过量数值内容,争取用机制来减少同质化问题.
+## Felsefemiz
+- Gezegenlerden binalara kadar, aşırı sayısal içeriklerden kaçınarak, mekanikler aracılığıyla tekrarlanırlığı azaltmaya çalışıyoruz.
 
-## 模组亮点
-### 遗物系统
+## Mod Özellikleri
+
+### Kalıntı Sistemi
 <img src="./screenshot/shot1.png" alt="logo" width="750"/>
 
 ---
 
-### 星球环境
+### Gezegen Ortamı
 <img src="./screenshot/shot2.png" alt="logo" width="750"/>
 
 ---
 
-### 人物对话
-~~我去galgame大蛇~~
+### Karakter Diyalogları
 <img src="./screenshot/shot3.png" alt="logo" width="500"/>
 
 ---
 
-## 有~~多余的~~建议或者问题?
-- __我的QQ__: 2315079583
-- __我们的测试群__: 1078329722
+## Öneri veya sorularınız mı var?
+- __Discord__: [Singularity Discord](https://discord.gg/singularitymod)
+- __GitHub__: [Proje Sayfası](https://github.com/AlonTur/DeepSpace)

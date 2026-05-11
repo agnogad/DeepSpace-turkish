@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: read
       packages: write
+      actions: write
 
 
     steps:
@@ -62,7 +63,13 @@ jobs:
           name: DeepSpace-${{ steps.version.outputs.version }}
           path: build/libs/version/
 
-      - name: Check Release Token
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: DeepSpace-${{ steps.version.outputs.version }}
+          path: release/
+
+      - name: Check Token
         id: check_token
         run: |
           if [ -n "${{ secrets.RELEASE_TOKEN }}" ]; then
@@ -78,9 +85,9 @@ jobs:
           tag: nightly
           name: Nightly (${{ steps.version.outputs.version }})
           body: |
-            自动构建：**${{ steps.version.outputs.version }}**
-            提交：${{ github.sha }}
-          artifacts: "build/libs/version/*"
+            Otomatik derleme：**${{ steps.version.outputs.version }}**
+            Commit: ${{ github.sha }}
+          artifacts: "release/*"
           allowUpdates: true
           removeArtifacts: true
           prerelease: false
